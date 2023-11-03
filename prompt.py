@@ -41,6 +41,10 @@ def create_prompts(data_rows):
             'prompt_4':{
                 'mods_change_query':'Given this mods message, what type of change occured, ADD, DELETE, or, MODIFY?',
                 'mods': mods
+            },
+            'prompt_5':{
+                'dependency_query': 'What type of dependency can you find given this message?',
+                'mods':mods
             }
         }
     return prompts
