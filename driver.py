@@ -1,8 +1,34 @@
 import openai
 import json
+import time
+from requests.exceptions import ReadTimeout
+
+def make_request_with_retry(prompt, model="gpt-4", max_retries=5):
+    backoff_factor = 1
+    for i in range(max_retries):
+        try:
+            # Call GPT API
+            response = openai.ChatCompletion.create(
+                model=model,
+                messages=[
+                    {"role": "user", "content": prompt}
+                ]
+            )
+            return response
+        except ReadTimeout:
+            print(f"Request timed out (attempt {i+1}/{max_retries}). Retrying in {backoff_factor} seconds.")
+            time.sleep(backoff_factor)
+            backoff_factor *= 2  # Exponential backoff
+        except openai.error.OpenAIError as e:
+            print(f"An OpenAI API error occurred: {e}")
+            break
+        except Exception as e:
+            print(f"An unexpected error occurred: {e}")
+            break
+    return None
 
 if __name__ == "__main__":
-    API_KEY = "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"
+    API_KEY = "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"
     openai.api_key = API_KEY
     
     # Load prompts from your JSON file
@@ -27,39 +53,35 @@ if __name__ == "__main__":
                 print(f"<<<{query_type} Prompt Generated>>>")
                 print(prompt)
                 
-                # Call GPT API
-                response = openai.ChatCompletion.create(
-                    model="gpt-3.5-turbo",
-                    messages=[
-                        {"role": "user", "content": prompt}
-                    ]
-                )
-                
-                message_results[row_key][prompt_key] = {query_type: response['choices'][0]['message']['content']}
-                print(f"{query_type} Result:", message_results[row_key][prompt_key])
+                # Call GPT API with retry logic
+                response = make_request_with_retry(prompt)
+                if response:
+                    message_results[row_key][prompt_key] = {query_type: response['choices'][0]['message']['content']}
+                    print(f"{query_type} Result:", message_results[row_key][prompt_key])
+                else:
+                    print(f"Failed to get a response for {query_type} after retries.")
             
             # Prepare the prompt for mods_query and mods_change_query
             if 'mods_query' in prompt_data or 'mods_change_query' in prompt_data:
-                query_type = 'mods_query' if 'mods_query' in prompt_data else 'mods_change_query'
-                mods_json = json.dumps(prompt_data['mods'])
-                prompt = prompt_data[query_type] + ' ' + mods_json
-                print(f"<<<{query_type} Prompt Generated>>>")
-                print(prompt)
-                
-                # Call GPT API
-                response = openai.ChatCompletion.create(
-                    model="gpt-3.5-turbo",
-                    messages=[
-                        {"role": "user", "content": prompt}
-                    ]
-                )
-                
-                mods_results[row_key][prompt_key] = {query_type: response['choices'][0]['message']['content']}
-                print(f"{query_type} Result:", mods_results[row_key][prompt_key])
+                mods = prompt_data['mods']
+                for i, mod in enumerate(mods):
+                    query_type = 'mods_query' if 'mods_query' in prompt_data else 'mods_change_query'
+                    mod_json = json.dumps(mod)
+                    prompt = prompt_data[query_type] + ' ' + mod_json
+                    print(f"<<<{query_type} Prompt {i+1} Generated>>>")
+                    print(prompt)
+                    
+                    # Call GPT API with retry logic
+                    response = make_request_with_retry(prompt)
+                    if response:
+                        mods_results[row_key].setdefault(prompt_key, []).append({f"{query_type}_{i+1}": response['choices'][0]['message']['content']})
+                        print(f"{query_type} {i+1} Result:", mods_results[row_key][prompt_key][-1])
+                    else:
+                        print(f"Failed to get a response for {query_type} {i+1} after retries.")
     
     # Save results to JSON files
     with open('message_results.json', 'w') as f:
-        json.dump(message_results, f)
+        json.dump(message_results, f, indent=4)
 
     with open('mods_results.json', 'w') as f:
-        json.dump(mods_results, f)
+        json.dump(mods_results, f, indent=4)

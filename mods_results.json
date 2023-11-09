@@ -1,0 +1,1845 @@
+{
+    "Row_1": {
+        "prompt_3": [
+            {
+                "mods_query_1": "The file that was changed based on this mod is \"angular-cli.json\"."
+            },
+            {
+                "mods_query_2": "The file that is changed based on this modification is \"package.json\"."
+            }
+        ],
+        "prompt_4": [
+            {
+                "mods_change_query_1": "The type of change that occurred is ADD."
+            }
+        ]
+    },
+    "Row_2": {
+        "prompt_3": [
+            {
+                "mods_query_1": "Based on the mods, the file that was changed is \"config/webpack.common.js\"."
+            },
+            {
+                "mods_query_2": "The file that was modified is \"package.json\"."
+            }
+        ],
+        "prompt_4": [
+            {
+                "mods_change_query_1": "The type of change that occurred is MODIFY."
+            },
+            {
+                "mods_change_query_2": "The changes that occurred are MODIFY and DELETE. The \"angular-router-loader\" was deleted and the \"ng-router-loader\" was added."
+            }
+        ]
+    },
+    "Row_3": {
+        "prompt_3": [
+            {
+                "mods_query_1": "The file that was changed based on this mod is \"package.json\"."
+            }
+        ]
+    },
+    "Row_4": {
+        "prompt_3": [
+            {
+                "mods_query_1": "The file that was changed is \"package.json\". The specific modification was updating the version of \"ng-router-loader\" from \"^1.0.1\" to \"^1.0.2\"."
+            }
+        ],
+        "prompt_4": [
+            {
+                "mods_change_query_1": "The change type is MODIFY."
+            }
+        ]
+    },
+    "Row_5": {
+        "prompt_3": [
+            {
+                "mods_query_1": "The file that was changed is \"TODO.md\"."
+            },
+            {
+                "mods_query_2": "Based on the given mod, the file that was modified is \"config/advance/helpers.js\"."
+            },
+            {
+                "mods_query_3": "The file that was changed based on this mod is \"config/advance/webpack.desktop.build.renderer.js\"."
+            },
+            {
+                "mods_query_4": "The file that was changed based on these modifications is \"config/advance/webpack.github-deploy.js\"."
+            },
+            {
+                "mods_query_5": "The file that's been modified is: config/advance/webpack.web.dev.js."
+            },
+            {
+                "mods_query_6": "The file that was changed is \"config/advance/webpack.web.prod.js\"."
+            },
+            {
+                "mods_query_7": "The file that was changed is \"config/advance/webpack.web.test.js\"."
+            },
+            {
+                "mods_query_8": "The file that was changed based on this mod is `src/assets/404.html`."
+            }
+        ],
+        "prompt_4": [
+            {
+                "mods_change_query_1": "The change type was MODIFY."
+            },
+            {
+                "mods_change_query_2": "The changes made in the code can be categorized as follows:\n\n1. MODIFY: The existing lines of code were changed or modified. For example, the line \"const HtmlWebpackPlugin = require('html-webpack-plugin');\" was modified to \"const EVENT = process.env.npm_lifecycle_event || '';\"\n\n2. DELETE: Some lines of the existing code were deleted. For instance, the line \"exports.removeHtmlWebpackPlugin = removeHtmlWebpackPlugin;\"\n\n3. ADD: New lines of code were added, such as \"function hasNpmFlag(flag) { return EVENT.includes(flag); }\" and \"exports.hasNpmFlag = hasNpmFlag;\"\n\nOverall, the message indicates the file named \"helpers.js\" in the directory \"config/advance\" underwent deletion, modification, and addition of code."
+            },
+            {
+                "mods_change_query_3": "The change type is MODIFY."
+            },
+            {
+                "mods_change_query_4": "The change type is MODIFY."
+            },
+            {
+                "mods_change_query_5": "The changes that occurred are MODIFY and ADD. The file \"config/advance/webpack.web.dev.js\" was modified. A line of code was added for the requiring 'html-webpack-plugin' and the function called 'removeHtmlWebpackPlugin' was modified to 'removePlugins'."
+            },
+            {
+                "mods_change_query_6": "The change type that occurred is MODIFY."
+            },
+            {
+                "mods_change_query_7": "The change type is MODIFY."
+            },
+            {
+                "mods_change_query_8": "The type of change that occurred is ADD."
+            }
+        ]
+    },
+    "Row_6": {
+        "prompt_3": [
+            {
+                "mods_query_1": "The file that was changed based on this mod is \"package.json\"."
+            }
+        ],
+        "prompt_4": [
+            {
+                "mods_change_query_1": "The type of change that occurred is MODIFY."
+            }
+        ]
+    },
+    "Row_7": {
+        "prompt_3": [
+            {
+                "mods_query_1": "The file that is changed based on this mod is \"config/advance/helpers.js\"."
+            },
+            {
+                "mods_query_2": "The file that was changed is \"config/advance/webpack.desktop.build.renderer.js\"."
+            },
+            {
+                "mods_query_3": "The file that was changed based on the provided information is `config/advance/webpack.github-deploy.js`."
+            }
+        ],
+        "prompt_4": [
+            {
+                "mods_change_query_1": "The change type that occurred was MODIFY."
+            },
+            {
+                "mods_change_query_2": "The type of change that occurred was MODIFY."
+            },
+            {
+                "mods_change_query_3": "The change type is MODIFY."
+            }
+        ]
+    },
+    "Row_8": {
+        "prompt_3": [
+            {
+                "mods_query_1": "The file changed based on this mod is .travis.yml."
+            },
+            {
+                "mods_query_2": "The file that was changed based on these modifications is \"package.json\"."
+            },
+            {
+                "mods_query_3": "The file that was changed based on this modification is \"src/app/components/about/about.component.spec.ts\"."
+            }
+        ],
+        "prompt_4": [
+            {
+                "mods_change_query_1": "The type of change that occurred was MODIFY."
+            },
+            {
+                "mods_change_query_2": "The change type that occurred was MODIFY."
+            },
+            {
+                "mods_change_query_3": "The type of change that occurred is MODIFY."
+            }
+        ]
+    },
+    "Row_9": {
+        "prompt_3": [
+            {
+                "mods_query_1": "The file that was changed is \"README.md\"."
+            }
+        ],
+        "prompt_4": [
+            {
+                "mods_change_query_1": "The type of change that occurred was MODIFY."
+            }
+        ]
+    },
+    "Row_10": {
+        "prompt_3": [
+            {
+                "mods_query_1": "Based on this mod, the file that was changed is \"config/advance/webpack.web.test.js\"."
+            },
+            {
+                "mods_query_2": "The file that was changed based on this mod is \"electron/main.desktop.ts\"."
+            },
+            {
+                "mods_query_3": "The file that was modified according to the mod is \"package.json\"."
+            },
+            {
+                "mods_query_4": "The file that was changed based on the provided mods is \"src/app/components/about/about.component.spec.ts\"."
+            },
+            {
+                "mods_query_5": "The file that was changed based on this mod is `src/app/shared/core/services/log.service.spec.ts`."
+            },
+            {
+                "mods_query_6": "The file that was changed based on this mod is \"src/app/shared/core/testing/providers/core.ts\"."
+            },
+            {
+                "mods_query_7": "The file that was changed based on this mod is \"src/app/shared/i18n/components/lang-switcher.component.spec.ts\"."
+            },
+            {
+                "mods_query_8": "The file that was changed based on this mod is \"src/app/shared/i18n/testing/index.ts\"."
+            },
+            {
+                "mods_query_9": "The file that was changed based on this mod is: \"src/app/shared/sample/services/name-list.service.spec.ts\"."
+            },
+            {
+                "mods_query_10": "Based on this mod, the file that is changed is \"tsconfig.desktop.json\"."
+            }
+        ],
+        "prompt_4": [
+            {
+                "mods_change_query_1": "The type of change that occurred is MODIFY."
+            },
+            {
+                "mods_change_query_2": "The type of change that occurred was MODIFY."
+            },
+            {
+                "mods_change_query_3": "The types of change that occurred are MODIFY and DELETE."
+            },
+            {
+                "mods_change_query_4": "The change type that occurred is MODIFY."
+            },
+            {
+                "mods_change_query_5": "The changes that occurred are MODIFY type. The content of the file \"src/app/shared/core/services/log.service.spec.ts\" was modified."
+            },
+            {
+                "mods_change_query_6": "The types of change that occurred is MODIFY."
+            },
+            {
+                "mods_change_query_7": "The type of change that occurred was MODIFY."
+            },
+            {
+                "mods_change_query_8": "The type of change that occurred is MODIFY."
+            },
+            {
+                "mods_change_query_9": "The type of change that occurred is MODIFY."
+            },
+            {
+                "mods_change_query_10": "The change type is MODIFY."
+            }
+        ]
+    },
+    "Row_11": {
+        "prompt_3": [
+            {
+                "mods_query_1": "The file that was changed is \"composer.json\"."
+            }
+        ],
+        "prompt_4": [
+            {
+                "mods_change_query_1": "The type of change that occurred is MODIFY."
+            }
+        ]
+    },
+    "Row_12": {
+        "prompt_3": [
+            {
+                "mods_query_1": "The file that is changed based on this mod is \"src/Payment/view/frontend/web/template/payment/amazon-payment-widget.html\"."
+            }
+        ],
+        "prompt_4": [
+            {
+                "mods_change_query_1": "The change type was MODIFY."
+            }
+        ]
+    },
+    "Row_13": {
+        "prompt_3": [
+            {
+                "mods_query_1": "The file that was changed based on this mod is \"src/Payment/view/frontend/requirejs-config.js\"."
+            }
+        ],
+        "prompt_4": [
+            {
+                "mods_change_query_1": "The type of change that occurred was MODIFY."
+            }
+        ]
+    },
+    "Row_14": {
+        "prompt_3": [
+            {
+                "mods_query_1": "The file that was added is \"src/Payment/Observer/AddAmazonButton.php\"."
+            },
+            {
+                "mods_query_2": "The file that was changed based on this mod is \"src/Payment/etc/frontend/di.xml\"."
+            },
+            {
+                "mods_query_3": "Based on the provided mod, only one file has been added:\n\n- src/Payment/etc/frontend/events.xml"
+            },
+            {
+                "mods_query_4": "The file that was changed based on this mod is \"src/Payment/view/frontend/layout/default.xml\"."
+            },
+            {
+                "mods_query_5": "The file that has been changed (actually added, given the \"ADD\" change type) based on this mod is the \"src/Payment/view/frontend/templates/minicart-button.phtml\"."
+            },
+            {
+                "mods_query_6": "The file that was changed is \"src/Payment/view/frontend/web/js/view/minicart-button.js\". This file was deleted based on the mods details."
+            },
+            {
+                "mods_query_7": "The file that was deleted based on these mods is \"src/Payment/view/frontend/web/template/minicart/minicart-button.html\"."
+            }
+        ],
+        "prompt_4": [
+            {
+                "mods_change_query_1": "The type of change that occurred is ADD."
+            },
+            {
+                "mods_change_query_2": "The type of change that occurred was MODIFY."
+            },
+            {
+                "mods_change_query_3": "The type of change that occurred is ADD."
+            },
+            {
+                "mods_change_query_4": "The type of change that occurred is DELETE."
+            },
+            {
+                "mods_change_query_5": "The type of change that occurred was ADD."
+            },
+            {
+                "mods_change_query_6": "The change that occurred was DELETE."
+            },
+            {
+                "mods_change_query_7": "The type of change that occurred is DELETE."
+            }
+        ]
+    },
+    "Row_15": {
+        "prompt_3": [
+            {
+                "mods_query_1": "Based on the modification details provided, the file that was changed is \"src/Payment/Helper/Shortcut/CheckoutValidator.php\". This file appears to have been newly added, rather than being a modification to an existing file. The addition involves PHP code related to the payment functionality of a web application, likely an e-commerce platform."
+            },
+            {
+                "mods_query_2": "Based on this modification, the file that was changed (specifically, it was added) is \"src/Payment/Helper/Shortcut/Factory.php\"."
+            },
+            {
+                "mods_query_3": "Based on the provided mod, the file that has been added is \"src/Payment/Helper/Shortcut/Validator.php\"."
+            },
+            {
+                "mods_query_4": "The file that has been renamed and changed in this mod is \"src/Payment/view/frontend/layout/checkout_cart_index.xml\". It has been renamed to \"src/Payment/Helper/Shortcut/ValidatorInterface.php\". \n\nThe contents of the file have been entirely replaced too. The original contents were configuration in XML for a Magento page layout. The new content is PHP code for a Validator Interface in the Amazon Payment Helper."
+            },
+            {
+                "mods_query_5": "The file that has been changed (added) based on this mod is \"src/Payment/Model/Config.php\"."
+            },
+            {
+                "mods_query_6": "The file that has been changed is \"src/Payment/Observer/AddAmazonButton.php\"."
+            },
+            {
+                "mods_query_7": "The file that was changed based on these mod is \"src/Payment/etc/di.xml\"."
+            },
+            {
+                "mods_query_8": "The file that was changed is \"src/Payment/etc/frontend/di.xml\"."
+            },
+            {
+                "mods_query_9": "The file that was deleted based on these modifications is \"src/Payment/view/frontend/templates/minicart-button.phtml\"."
+            }
+        ],
+        "prompt_4": [
+            {
+                "mods_change_query_1": "The type of change that occurred is ADD."
+            },
+            {
+                "mods_change_query_2": "The type of change that occurred is ADD."
+            },
+            {
+                "mods_change_query_3": "The type of change that occurred is an ADD."
+            },
+            {
+                "mods_change_query_4": "The type of change is MODIFY."
+            },
+            {
+                "mods_change_query_5": "The type of change that occurred is ADD."
+            },
+            {
+                "mods_change_query_6": "The type of change that occurred was MODIFY."
+            },
+            {
+                "mods_change_query_7": "The type of change that occurred is MODIFY."
+            },
+            {
+                "mods_change_query_8": "The type of change that occurred was MODIFY."
+            },
+            {
+                "mods_change_query_9": "The change type that occurred is DELETE."
+            }
+        ]
+    },
+    "Row_16": {
+        "prompt_3": [
+            {
+                "mods_query_1": "The file that was modified based on this mod is \"src/Payment/Helper/Shortcut/Validator.php\"."
+            },
+            {
+                "mods_query_2": "The file that was changed is \"src/Payment/Model/Config.php\""
+            }
+        ],
+        "prompt_4": [
+            {
+                "mods_change_query_1": "The change type that occurred was MODIFY."
+            },
+            {
+                "mods_change_query_2": "The type of change that occurred is MODIFY."
+            }
+        ]
+    },
+    "Row_17": {
+        "prompt_3": [
+            {
+                "mods_query_1": "The file that was changed is \"src/Payment/etc/frontend/di.xml\"."
+            }
+        ],
+        "prompt_4": [
+            {
+                "mods_change_query_1": "The type of change that occured is MODIFY."
+            }
+        ]
+    },
+    "Row_18": {
+        "prompt_3": [
+            {
+                "mods_query_1": "The file that was changed based on this mod is \"src/Payment/Observer/CompleteOrderStatus.php\"."
+            }
+        ],
+        "prompt_4": [
+            {
+                "mods_change_query_1": "The type of change that occurred is MODIFY."
+            }
+        ]
+    },
+    "Row_19": {
+        "prompt_3": [
+            {
+                "mods_query_1": "The file that was changed based on this mods is \"src/Payment/view/frontend/web/js/view/checkout-widget-address.js\"."
+            },
+            {
+                "mods_query_2": "The file that was changed is: src/Payment/view/frontend/web/js/view/payment/method-renderer/amazon-payment-widget.js."
+            }
+        ],
+        "prompt_4": [
+            {
+                "mods_change_query_1": "The type of change that occured is MODIFY."
+            },
+            {
+                "mods_change_query_2": "The change that occurred was MODIFY."
+            }
+        ]
+    },
+    "Row_20": {
+        "prompt_3": [
+            {
+                "mods_query_1": "The file that was changed is \"src/Payment/view/frontend/layout/checkout_index_index.xml\"."
+            }
+        ],
+        "prompt_4": [
+            {
+                "mods_change_query_1": "The type of change that occurred was MODIFY."
+            }
+        ]
+    },
+    "Row_21": {
+        "prompt_3": [
+            {
+                "mods_query_1": "The file that was changed based on this mods is \"composer.json\"."
+            },
+            {
+                "mods_query_2": "Based on this mod, the file that has been changed is \"marketplace-composer.json\"."
+            },
+            {
+                "mods_query_3": "The file that is changed based on this mod is \"src/Core/composer.json\"."
+            },
+            {
+                "mods_query_4": "The file changed based on this mod is \"src/Login/composer.json\"."
+            },
+            {
+                "mods_query_5": "The file that was changed is \"src/Payment/composer.json\"."
+            }
+        ],
+        "prompt_4": [
+            {
+                "mods_change_query_1": "The type of change that occurred is MODIFY."
+            },
+            {
+                "mods_change_query_2": "The change that occurred was MODIFY."
+            },
+            {
+                "mods_change_query_3": "The change that occurred was a MODIFY."
+            },
+            {
+                "mods_change_query_4": "The change type that occurred was MODIFY."
+            },
+            {
+                "mods_change_query_5": "The type of change that occurred is MODIFY."
+            }
+        ]
+    },
+    "Row_22": {
+        "prompt_3": [
+            {
+                "mods_query_1": "The file that is changed based on this mod is `.github/ISSUE_TEMPLATE.md`"
+            },
+            {
+                "mods_query_2": "Based on the mods, the file that was changed is \".github/PULL_REQUEST_TEMPLATE.md\"."
+            },
+            {
+                "mods_query_3": "The file that was modified based on this mod is \".gitignore\"."
+            }
+        ],
+        "prompt_4": [
+            {
+                "mods_change_query_1": "The type of change that occurred is ADD."
+            },
+            {
+                "mods_change_query_2": "The change that occurred was an ADD."
+            },
+            {
+                "mods_change_query_3": "The type of change that occurred is MODIFY."
+            }
+        ]
+    },
+    "Row_23": {
+        "prompt_3": [
+            {
+                "mods_query_1": "The file that was changed based on these mods is \"README.md\"."
+            }
+        ],
+        "prompt_4": [
+            {
+                "mods_change_query_1": "The types of changes that occurred are DELETE and ADD. The line \"A verified Amazon Pay account\" was deleted and the line \"A verified Amazon Payments merchant account\" was added."
+            }
+        ]
+    },
+    "Row_24": {
+        "prompt_3": [
+            {
+                "mods_query_1": "The file that has been changed based on this mod is \"README.md\"."
+            }
+        ],
+        "prompt_4": [
+            {
+                "mods_change_query_1": "The change type is MODIFY."
+            }
+        ]
+    },
+    "Row_25": {
+        "prompt_3": [
+            {
+                "mods_query_1": "The file that was changed is \"src/Payment/Model/OrderInformationManagement.php\"."
+            }
+        ],
+        "prompt_4": [
+            {
+                "mods_change_query_1": "The type of change that occurred is MODIFY."
+            }
+        ]
+    },
+    "Row_26": {
+        "prompt_3": [
+            {
+                "mods_query_1": "The file that was changed is src/Core/Block/Adminhtml/Form/Field/IpnUrl.php."
+            },
+            {
+                "mods_query_2": "Based on the changes provided, the file that was modified is \"src/Core/Block/Adminhtml/Form/Field/JsOrigin.php\"."
+            },
+            {
+                "mods_query_3": "The file that was changed based on the mods is \"src/Core/Block/Adminhtml/Form/Field/RedirectUrl.php\"."
+            }
+        ],
+        "prompt_4": [
+            {
+                "mods_change_query_1": "The type of change that occurred is MODIFY."
+            },
+            {
+                "mods_change_query_2": "The change type that occured was MODIFY."
+            },
+            {
+                "mods_change_query_3": "The type of change that occurred, based on the mods message, was a MODIFY change."
+            }
+        ]
+    },
+    "Row_27": {
+        "prompt_3": [
+            {
+                "mods_query_1": "The file that was changed based on this mod is \"composer.json\"."
+            },
+            {
+                "mods_query_2": "Based on this mod, the file that has been changed is \"marketplace-composer.json\"."
+            }
+        ],
+        "prompt_4": [
+            {
+                "mods_change_query_1": "The type of change that occurred is MODIFY."
+            },
+            {
+                "mods_change_query_2": "The changes that occurred were MODIFY. The name was changed from \"amzn/amazon-pay-magento-2-module\" to \"amzn/amazon-pay-and-login-magento-2-module\"."
+            }
+        ]
+    },
+    "Row_28": {
+        "prompt_3": [
+            {
+                "mods_query_1": "The file that has been changed based on this mod is \"src/Core/Block/Config.php\"."
+            },
+            {
+                "mods_query_2": "The file that was changed based on this mod is \"src/Core/Helper/Data.php\"."
+            },
+            {
+                "mods_query_3": "The file that has been added is \"src/Login/etc/adminhtml/system.xml\"."
+            },
+            {
+                "mods_query_4": "The file that was changed is \"src/Login/etc/config.xml\"."
+            },
+            {
+                "mods_query_5": "The file that was changed is \"src/Login/view/frontend/layout/default.xml\"."
+            },
+            {
+                "mods_query_6": "Based on the provided mods, the file that was added is \"src/Login/view/frontend/web/js/view/login-button-wrapper.js\"."
+            }
+        ],
+        "prompt_4": [
+            {
+                "mods_change_query_1": "The type of change that occurred is MODIFY."
+            },
+            {
+                "mods_change_query_2": "The type of change that occurred is ADD."
+            },
+            {
+                "mods_change_query_3": "The type of change that occurred is ADD."
+            },
+            {
+                "mods_change_query_4": "The type of change that occurred is ADD."
+            },
+            {
+                "mods_change_query_5": "The type of change that occurred is MODIFY."
+            },
+            {
+                "mods_change_query_6": "The type of change that occurred is ADD."
+            }
+        ]
+    },
+    "Row_29": {
+        "prompt_3": [
+            {
+                "mods_query_1": "The file that was changed based on this mod is \"src/Core/Helper/Data.php\"."
+            },
+            {
+                "mods_query_2": "The file that was changed based on this mod is `src/Core/etc/adminhtml/system.xml`"
+            },
+            {
+                "mods_query_3": "The file that has been modified based on the provided modifications (mods) is:\n\nsrc/Core/etc/config.xml"
+            },
+            {
+                "mods_query_4": "The file that was changed based on this mod is \"src/Payment/Block/Minicart/Button.php\"."
+            }
+        ],
+        "prompt_4": [
+            {
+                "mods_change_query_1": "The type of change that occurred is MODIFY."
+            },
+            {
+                "mods_change_query_2": "The type of change that occurred is ADD."
+            },
+            {
+                "mods_change_query_3": "The type of change that occurred was MODIFY."
+            },
+            {
+                "mods_change_query_4": "The change type was MODIFY."
+            }
+        ]
+    },
+    "Row_30": {
+        "prompt_3": [
+            {
+                "mods_query_1": "The file that was changed is \"src/Payment/view/frontend/web/js/amazon-core.js\"."
+            }
+        ],
+        "prompt_4": [
+            {
+                "mods_change_query_1": "The type of change that occurred was MODIFY."
+            }
+        ]
+    },
+    "Row_31": {
+        "prompt_3": [
+            {
+                "mods_query_1": "The file that was changed based on this mod is \"docs/customisation.rst\"."
+            }
+        ],
+        "prompt_4": [
+            {
+                "mods_change_query_1": "The type of change that occurred is MODIFY."
+            }
+        ]
+    },
+    "Row_32": {
+        "prompt_3": [
+            {
+                "mods_query_1": "The file that was changed based on this mod is \"docs/prerequisites.rst\"."
+            }
+        ],
+        "prompt_4": [
+            {
+                "mods_change_query_1": "The type of change that occurred is MODIFY."
+            }
+        ]
+    },
+    "Row_33": {
+        "prompt_3": [
+            {
+                "mods_query_1": "The file that has been changed based on this mod is: \"src/Core/view/adminhtml/layout/adminhtml_system_config_edit.xml\". It appears to be deleted in this mod."
+            }
+        ],
+        "prompt_4": [
+            {
+                "mods_change_query_1": "The type of change that occurred is DELETE."
+            }
+        ]
+    },
+    "Row_34": {
+        "prompt_3": [
+            {
+                "mods_query_1": "The file that was changed based on this mod is \"src/Core/Block/Adminhtml/Form/Field/IpnUrl.php\"."
+            },
+            {
+                "mods_query_2": "The file that is changed based on the mods is \"src/Core/Block/Adminhtml/Form/Field/JsOrigin.php\"."
+            },
+            {
+                "mods_query_3": "The file that was changed based on the mods is `src/Core/Block/Adminhtml/Form/Field/RedirectUrl.php`."
+            }
+        ],
+        "prompt_4": [
+            {
+                "mods_change_query_1": "The change type is MODIFY."
+            },
+            {
+                "mods_change_query_2": "The type of change that occurred is MODIFY."
+            },
+            {
+                "mods_change_query_3": "The type of change that occurred was MODIFY."
+            }
+        ]
+    },
+    "Row_35": {
+        "prompt_3": [
+            {
+                "mods_query_1": "Based on the provided mod, the new file that was added is:\n\"src/Core/Block/Adminhtml/System/Config/Form/Version.php\"."
+            },
+            {
+                "mods_query_2": "The file that was changed based on this mod is \"src/Core/etc/adminhtml/system.xml\"."
+            }
+        ],
+        "prompt_4": [
+            {
+                "mods_change_query_1": "The change that occurred was an ADD."
+            },
+            {
+                "mods_change_query_2": "The type of change that occurred is MODIFY."
+            }
+        ]
+    },
+    "Row_36": {
+        "prompt_3": [
+            {
+                "mods_query_1": "The file that was changed based on this mod is \"src/Payment/view/frontend/web/template/notification.html\"."
+            }
+        ],
+        "prompt_4": [
+            {
+                "mods_change_query_1": "The type of change that occurred was MODIFY."
+            }
+        ]
+    },
+    "Row_37": {
+        "prompt_3": [
+            {
+                "mods_query_1": "The file that was changed based on these modifications is \"src/Core/Helper/Data.php\"."
+            },
+            {
+                "mods_query_2": "The file that is changed based on this mod is \"src/Core/etc/adminhtml/system.xml\"."
+            },
+            {
+                "mods_query_3": "The file that was changed is \"src/Payment/Helper/Email.php\"."
+            },
+            {
+                "mods_query_4": "The file that was changed based on the modification is \"src/Payment/Model/OrderInformationManagement.php\"."
+            },
+            {
+                "mods_query_5": "The file that was changed is \"src/Payment/view/frontend/email/hard-declined-auth.html\"."
+            },
+            {
+                "mods_query_6": "The file \"src/Payment/view/frontend/email/soft-declined-auth.html\" was modified."
+            }
+        ],
+        "prompt_4": [
+            {
+                "mods_change_query_1": "The type of change that occurred is ADD."
+            },
+            {
+                "mods_change_query_2": "The type of change that occurred is MODIFY."
+            },
+            {
+                "mods_change_query_3": "The type of change that occurred is MODIFY."
+            },
+            {
+                "mods_change_query_4": "The type of change that occurred is MODIFY."
+            },
+            {
+                "mods_change_query_5": "The type of change that occurred was MODIFY."
+            },
+            {
+                "mods_change_query_6": "The type of change occurred is MODIFY."
+            }
+        ]
+    },
+    "Row_38": {
+        "prompt_3": [
+            {
+                "mods_query_1": "The file that was changed based on this modification is \"src/Core/Helper/CategoryExclusion.php\"."
+            }
+        ],
+        "prompt_4": [
+            {
+                "mods_change_query_1": "The type of change that occurred is MODIFY."
+            }
+        ]
+    },
+    "Row_39": {
+        "prompt_3": [
+            {
+                "mods_query_1": "The file that was changed is \"src/Payment/Helper/Shortcut/CheckoutValidator.php\"."
+            },
+            {
+                "mods_query_2": "The file that was changed based on this mod is \"src/Payment/Plugin/ShippingInformationManagement.php\"."
+            }
+        ],
+        "prompt_4": [
+            {
+                "mods_change_query_1": "The type of change that occurred is MODIFY."
+            },
+            {
+                "mods_change_query_2": "The type of change that occurred is MODIFY."
+            }
+        ]
+    },
+    "Row_40": {
+        "prompt_3": [
+            {
+                "mods_query_1": "The file that was modified based on this mod is: \n\n\"src/Payment/view/frontend/layout/checkout_index_index.xml\""
+            }
+        ],
+        "prompt_4": [
+            {
+                "mods_change_query_1": "The change type that occurred is MODIFY."
+            }
+        ]
+    },
+    "Row_41": {
+        "prompt_3": [
+            {
+                "mods_query_1": "The file that was changed is \"marketplace-composer.json\"."
+            }
+        ],
+        "prompt_4": [
+            {
+                "mods_change_query_1": "The change type that occurred was MODIFY."
+            }
+        ]
+    },
+    "Row_42": {
+        "prompt_3": [
+            {
+                "mods_query_1": "Based on the provided modifications, the file that was changed is \"src/Payment/view/frontend/web/js/view/payment/list.js\"."
+            }
+        ],
+        "prompt_4": [
+            {
+                "mods_change_query_1": "The change type that occurred according to the mod's message is MODIFY."
+            }
+        ]
+    },
+    "Row_43": {
+        "prompt_3": [
+            {
+                "mods_query_1": "The file that was modified is \"src/Payment/Helper/Shortcut/CheckoutValidator.php\"."
+            }
+        ],
+        "prompt_4": [
+            {
+                "mods_change_query_1": "The type of change that occurred was MODIFY."
+            }
+        ]
+    },
+    "Row_44": {
+        "prompt_3": [
+            {
+                "mods_query_1": "The file that was changed based on the given modifications is \"src/Core/Block/Adminhtml/System/Config/Form/Version.php\"."
+            }
+        ],
+        "prompt_4": [
+            {
+                "mods_change_query_1": "The change type that occurred is MODIFY."
+            }
+        ]
+    },
+    "Row_45": {
+        "prompt_3": [
+            {
+                "mods_query_1": "The file that has been changed is \"src/Payment/view/frontend/web/js/amazon-button.js\"."
+            }
+        ],
+        "prompt_4": [
+            {
+                "mods_change_query_1": "The type of change that occurred is MODIFY."
+            }
+        ]
+    },
+    "Row_46": {
+        "prompt_3": [
+            {
+                "mods_query_1": "Based on the mod/change given, the file that was changed is \"src/Core/Helper/CategoryExclusion.php\"."
+            }
+        ],
+        "prompt_4": [
+            {
+                "mods_change_query_1": "The type of change that occurred is DELETE."
+            }
+        ]
+    },
+    "Row_47": {
+        "prompt_3": [
+            {
+                "mods_query_1": "Based on the mods, the file that has been modified is:\n\nsrc/Payment/view/frontend/web/js/amazon-button.js"
+            }
+        ],
+        "prompt_4": [
+            {
+                "mods_change_query_1": "The type of change that occurred was MODIFY."
+            }
+        ]
+    },
+    "Row_48": {
+        "prompt_3": [
+            {
+                "mods_query_1": "The file that was changed is \"src/Core/Block/Adminhtml/System/Config/Form/Version.php\"."
+            }
+        ],
+        "prompt_4": [
+            {
+                "mods_change_query_1": "The type of change that occurred is MODIFY."
+            }
+        ]
+    },
+    "Row_49": {
+        "prompt_3": [
+            {
+                "mods_query_1": "The file that was changed based on this mods is \"src/Payment/Observer/CompleteOrder.php\"."
+            }
+        ],
+        "prompt_4": [
+            {
+                "mods_change_query_1": "The type of change that occurred is MODIFY."
+            }
+        ]
+    },
+    "Row_50": {
+        "prompt_3": [
+            {
+                "mods_query_1": "The file that has been changed is \"docs/installation.rst\"."
+            }
+        ],
+        "prompt_4": [
+            {
+                "mods_change_query_1": "The type of change that occurred was MODIFY."
+            }
+        ]
+    },
+    "Row_51": {
+        "prompt_3": [
+            {
+                "mods_query_1": "The file that was changed based on this mod is \"docs/installation.rst\"."
+            }
+        ],
+        "prompt_4": [
+            {
+                "mods_change_query_1": "The type of change that occurred was MODIFY."
+            }
+        ]
+    },
+    "Row_52": {
+        "prompt_3": [
+            {
+                "mods_query_1": "The file that was changed based on this mod is \"docs/overview.rst\"."
+            }
+        ],
+        "prompt_4": [
+            {
+                "mods_change_query_1": "The type of change that occurred was MODIFY."
+            }
+        ]
+    },
+    "Row_53": {
+        "prompt_3": [
+            {
+                "mods_query_1": "The file that was changed is \"docs/conf.py\"."
+            }
+        ],
+        "prompt_4": [
+            {
+                "mods_change_query_1": "The change was a MODIFY type."
+            }
+        ]
+    },
+    "Row_54": {
+        "prompt_3": [
+            {
+                "mods_query_1": "The file that was changed based on this mod is \"src/Payment/view/frontend/web/js/view/payment/list.js\"."
+            }
+        ],
+        "prompt_4": [
+            {
+                "mods_change_query_1": "The type of change that occurred is MODIFY."
+            }
+        ]
+    },
+    "Row_55": {
+        "prompt_3": [
+            {
+                "mods_query_1": "The file that was changed based on this modification is \"src/Payment/view/frontend/web/js/amazon-button.js\"."
+            }
+        ],
+        "prompt_4": [
+            {
+                "mods_change_query_1": "The type of change that occurred is MODIFY."
+            }
+        ]
+    },
+    "Row_56": {
+        "prompt_3": [
+            {
+                "mods_query_1": "Based on this modification, the file that was changed or added is `src/Core/Block/Adminhtml/System/Config/SimplePathAdmin.php`"
+            },
+            {
+                "mods_query_2": "Based on the provided information, a new file has been added. The file's path is \"src/Core/Controller/Adminhtml/Simplepath/Poll.php\"."
+            },
+            {
+                "mods_query_3": "The file that was added based on this mod is \"src/Core/Controller/Simplepath/Listener.php\"."
+            },
+            {
+                "mods_query_4": "The file that was changed based on this mod is \"src/Core/Model/Config/Credentials/Json.php\"."
+            },
+            {
+                "mods_query_5": "The file that changed based on these modifications is \"src/Core/Model/Config/SimplePath.php\"."
+            },
+            {
+                "mods_query_6": "Based on the provided modification, the file that was changed is: \n\nsrc/Core/Model/Validation/JsonConfigDataValidator.php"
+            },
+            {
+                "mods_query_7": "The file that was changed based on these mods is \"src/Core/etc/adminhtml/routes.xml\"."
+            },
+            {
+                "mods_query_8": "The file that was changed based on these modifications is \"src/Core/etc/adminhtml/system.xml\"."
+            },
+            {
+                "mods_query_9": "The file that is changed based on this mod is \"src/Core/etc/frontend/routes.xml\"."
+            },
+            {
+                "mods_query_10": "The file that is changed based on this mod is \"src/Core/view/adminhtml/layout/adminhtml_system_config_edit.xml\"."
+            },
+            {
+                "mods_query_11": "The file that was changed based on this modification is \"src/Core/view/adminhtml/templates/system/config/simplepath_admin.phtml\"."
+            }
+        ],
+        "prompt_4": [
+            {
+                "mods_change_query_1": "The type of change that occurred is ADD."
+            },
+            {
+                "mods_change_query_2": "The type of change that occurred is ADD."
+            },
+            {
+                "mods_change_query_3": "The type of change that occurred is ADD."
+            },
+            {
+                "mods_change_query_4": "The change that occurred was MODIFY."
+            },
+            {
+                "mods_change_query_5": "The type of change that occurred was: ADD"
+            },
+            {
+                "mods_change_query_6": "The type of change that occurred is MODIFY."
+            },
+            {
+                "mods_change_query_7": "The types of change that occurred is MODIFY."
+            },
+            {
+                "mods_change_query_8": "The type of change that occurred is MODIFY."
+            },
+            {
+                "mods_change_query_9": "The type of change that occurred was ADD."
+            },
+            {
+                "mods_change_query_10": "The type of change that occurred is ADD."
+            },
+            {
+                "mods_change_query_11": "The type of change that occurred is ADD."
+            }
+        ]
+    },
+    "Row_57": {
+        "prompt_3": [
+            {
+                "mods_query_1": "The file that was changed based on this modification is \"src/Core/Controller/Simplepath/Listener.php\"."
+            },
+            {
+                "mods_query_2": "The file that was modified based on this mod is \"src/Core/Model/Config/SimplePath.php\"."
+            },
+            {
+                "mods_query_3": "The file that was changed based on this mod is \"src/Core/etc/adminhtml/system.xml\"."
+            },
+            {
+                "mods_query_4": "The file changed based on this mod is `src/Core/view/adminhtml/templates/system/config/simplepath_admin.phtml`."
+            }
+        ],
+        "prompt_4": [
+            {
+                "mods_change_query_1": "The type of change that occurred is MODIFY."
+            },
+            {
+                "mods_change_query_3": "The type of change that occurred was MODIFY."
+            },
+            {
+                "mods_change_query_4": "The change type is MODIFY."
+            }
+        ]
+    },
+    "Row_58": {
+        "prompt_3": [
+            {
+                "mods_query_1": "The file that was changed is \"src/Core/Observer/PaymentConfigSaveAfter.php\"."
+            }
+        ],
+        "prompt_4": [
+            {
+                "mods_change_query_1": "The type of change that occurred is MODIFY."
+            }
+        ]
+    },
+    "Row_59": {
+        "prompt_3": [
+            {
+                "mods_query_1": "The file that was changed based on the provided mods is `src/Core/view/adminhtml/templates/system/config/simplepath_admin.phtml`."
+            }
+        ],
+        "prompt_4": [
+            {
+                "mods_change_query_1": "The type of change that occured is MODIFY."
+            }
+        ]
+    },
+    "Row_60": {
+        "prompt_3": [
+            {
+                "mods_query_1": "The file that's changed based on this mod is: \nsrc/Core/Model/Config/SimplePath.php"
+            }
+        ],
+        "prompt_4": [
+            {
+                "mods_change_query_1": "The type of change that occurred is MODIFY."
+            }
+        ]
+    },
+    "Row_61": {
+        "prompt_3": [
+            {
+                "mods_query_1": "Based on the given mods, the following file was changed:\n- src/Core/view/adminhtml/templates/system/config/simplepath_admin.phtml"
+            }
+        ],
+        "prompt_4": [
+            {
+                "mods_change_query_1": "The type of change that occurred is MODIFY."
+            }
+        ]
+    },
+    "Row_62": {
+        "prompt_3": [
+            {
+                "mods_query_1": "The file that was changed is \"src/Core/view/adminhtml/templates/system/config/simplepath_admin.phtml\"."
+            }
+        ],
+        "prompt_4": [
+            {
+                "mods_change_query_1": "The type of change that occurred is MODIFY."
+            }
+        ]
+    },
+    "Row_63": {
+        "prompt_3": [
+            {
+                "mods_query_1": "Based on these modifications, the file that has been changed is: src/Core/Model/Config/SimplePath.php"
+            }
+        ],
+        "prompt_4": [
+            {
+                "mods_change_query_1": "The type of change that occurred is MODIFY."
+            }
+        ]
+    },
+    "Row_64": {
+        "prompt_3": [
+            {
+                "mods_query_1": "The file that was changed based on this mod is \"src/Core/Model/Config/SimplePath.php\"."
+            },
+            {
+                "mods_query_2": "The file that was changed is \"src/Core/view/adminhtml/templates/system/config/simplepath_admin.phtml\"."
+            }
+        ],
+        "prompt_4": [
+            {
+                "mods_change_query_1": "The type of change that occurred was MODIFY."
+            },
+            {
+                "mods_change_query_2": "The type of change that occurred is MODIFY."
+            }
+        ]
+    },
+    "Row_65": {
+        "prompt_3": [
+            {
+                "mods_query_1": "The file that was changed is \"src/Core/Model/Config/SimplePath.php\"."
+            }
+        ],
+        "prompt_4": [
+            {
+                "mods_change_query_1": "The type of change that occurred is MODIFY."
+            }
+        ]
+    },
+    "Row_66": {
+        "prompt_3": [
+            {
+                "mods_query_1": "The file that was changed is `src/Core/view/adminhtml/templates/system/config/simplepath_admin.phtml`"
+            }
+        ],
+        "prompt_4": [
+            {
+                "mods_change_query_1": "The change type that occurred is MODIFY."
+            }
+        ]
+    },
+    "Row_67": {
+        "prompt_3": [
+            {
+                "mods_query_1": "The file that was changed is: `src/Core/view/adminhtml/templates/system/config/simplepath_admin.phtml`"
+            }
+        ],
+        "prompt_4": [
+            {
+                "mods_change_query_1": "The types of changes that occurred according to the mod's message are ADD and MODIFY."
+            }
+        ]
+    },
+    "Row_68": {
+        "prompt_3": [
+            {
+                "mods_query_1": "The file that was changed is \"src/Core/etc/adminhtml/system.xml\"."
+            },
+            {
+                "mods_query_2": "The file that was changed is \"src/Login/etc/adminhtml/system.xml\"."
+            }
+        ],
+        "prompt_4": [
+            {
+                "mods_change_query_1": "The change that occurred was a MODIFY."
+            },
+            {
+                "mods_change_query_2": "The change type is MODIFY."
+            }
+        ]
+    },
+    "Row_69": {
+        "prompt_3": [
+            {
+                "mods_query_1": "Based on the provided JSON data, a new file has been added. The new file is \"src/Core/Block/Adminhtml/System/Config/Form/SimplepathConfig.php\"."
+            },
+            {
+                "mods_query_2": "The file that was changed is \"src/Core/Model/Config/SimplePath.php\"."
+            },
+            {
+                "mods_query_3": "The file changed based on this mod is \"src/Core/etc/adminhtml/system.xml\"."
+            },
+            {
+                "mods_query_4": "The file that was deleted or modified is \"src/Core/view/adminhtml/layout/adminhtml_system_config_edit.xml\"."
+            },
+            {
+                "mods_query_5": "The file that was changed is \"src/Core/view/adminhtml/templates/system/config/simplepath_admin.phtml\"."
+            }
+        ],
+        "prompt_4": [
+            {
+                "mods_change_query_1": "The type of change that occurred was an ADD."
+            },
+            {
+                "mods_change_query_2": "The type of change that occurred was MODIFY."
+            },
+            {
+                "mods_change_query_3": "The change type that occurred was MODIFY."
+            },
+            {
+                "mods_change_query_4": "The type of change that occurred is DELETE."
+            },
+            {
+                "mods_change_query_5": "The change type that occurred was MODIFY."
+            }
+        ]
+    },
+    "Row_70": {
+        "prompt_3": [
+            {
+                "mods_query_1": "The file that was changed based on this mods is \"docs/configuration.rst\"."
+            }
+        ],
+        "prompt_4": [
+            {
+                "mods_change_query_1": "The change type that occurred is MODIFY."
+            }
+        ]
+    },
+    "Row_71": {
+        "prompt_3": [
+            {
+                "mods_query_1": "The modified file based on this mod is \"src/Core/Block/Adminhtml/System/Config/Form/SimplepathConfig.php\"."
+            },
+            {
+                "mods_query_2": "The file that was changed based on this mod is:\n\nsrc/Core/Block/Adminhtml/System/Config/SimplePathAdmin.php"
+            },
+            {
+                "mods_query_3": "The file that was changed based on this mod is \"src/Core/Model/Config/SimplePath.php\"."
+            },
+            {
+                "mods_query_4": "Based on the provided mod, the file that was modified is: `src/Core/view/adminhtml/templates/system/config/simplepath_admin.phtml`."
+            }
+        ],
+        "prompt_4": [
+            {
+                "mods_change_query_1": "The type of change that occurred was a MODIFY."
+            },
+            {
+                "mods_change_query_2": "The type of change that occurred is MODIFY."
+            },
+            {
+                "mods_change_query_3": "The type of change that occurred is MODIFY."
+            },
+            {
+                "mods_change_query_4": "The type of change that occurred is MODIFY."
+            }
+        ]
+    },
+    "Row_72": {
+        "prompt_3": [
+            {
+                "mods_query_1": "The file that was changed based on this mod is: \"src/Payment/Model/OrderInformationManagement.php\""
+            },
+            {
+                "mods_query_2": "Based on this mod, the file that was changed is: \n\n- src/Payment/Plugin/ShippingInformationManagement.php"
+            }
+        ],
+        "prompt_4": [
+            {
+                "mods_change_query_1": "The type of change that occurred was MODIFY."
+            },
+            {
+                "mods_change_query_2": "The type of change that occurred is MODIFY."
+            }
+        ]
+    },
+    "Row_73": {
+        "prompt_3": [
+            {
+                "mods_query_1": "The file that was changed based on this modification is \"src/Core/view/adminhtml/templates/system/config/simplepath_admin.phtml\"."
+            }
+        ],
+        "prompt_4": [
+            {
+                "mods_change_query_1": "The type of change that occurred is MODIFY."
+            }
+        ]
+    },
+    "Row_74": {
+        "prompt_3": [
+            {
+                "mods_query_1": "The file that was changed based on this mod is \"src/Core/etc/adminhtml/system.xml\"."
+            }
+        ],
+        "prompt_4": [
+            {
+                "mods_change_query_1": "The type of change that occurred is MODIFY."
+            }
+        ]
+    },
+    "Row_75": {
+        "prompt_3": [
+            {
+                "mods_query_1": "Based on this mod, the file that is changed is \"composer.json\"."
+            }
+        ],
+        "prompt_4": [
+            {
+                "mods_change_query_1": "The type of change that occurred was MODIFY."
+            }
+        ]
+    },
+    "Row_76": {
+        "prompt_3": [
+            {
+                "mods_query_1": "The file that was changed based on this mod is \"src/Login/etc/adminhtml/system.xml\"."
+            }
+        ],
+        "prompt_4": [
+            {
+                "mods_change_query_1": "The type of change that occurred is MODIFY."
+            }
+        ]
+    },
+    "Row_77": {
+        "prompt_3": [
+            {
+                "mods_query_1": "The file that was changed based on this mod is \"src/Core/Block/Adminhtml/System/Config/Form/Version.php\"."
+            }
+        ],
+        "prompt_4": [
+            {
+                "mods_change_query_1": "The type of change that occurred is MODIFY."
+            }
+        ]
+    },
+    "Row_78": {
+        "prompt_3": [
+            {
+                "mods_query_1": "The file that was changed based on this mod is: \n\nsrc/Login/Model/Customer/Account/Redirect.php"
+            }
+        ],
+        "prompt_4": [
+            {
+                "mods_change_query_1": "The change type that occurred is MODIFY."
+            }
+        ]
+    },
+    "Row_79": {
+        "prompt_3": [
+            {
+                "mods_query_1": "The file that has been changed is `src/Payment/Block/Minicart/Button.php`."
+            }
+        ],
+        "prompt_4": [
+            {
+                "mods_change_query_1": "The type of change that occurred is MODIFY."
+            }
+        ]
+    },
+    "Row_80": {
+        "prompt_3": [
+            {
+                "mods_query_1": "The modified file is \"src/Payment/Block/Minicart/Button.php\"."
+            }
+        ],
+        "prompt_4": [
+            {
+                "mods_change_query_1": "The type of change that occurred is MODIFY."
+            }
+        ]
+    },
+    "Row_81": {
+        "prompt_3": [
+            {
+                "mods_query_1": "The file changed based on this mod is \"src/Payment/Helper/Data.php\"."
+            }
+        ],
+        "prompt_4": [
+            {
+                "mods_change_query_1": "The type of change that occurred was MODIFY."
+            }
+        ]
+    },
+    "Row_82": {
+        "prompt_3": [
+            {
+                "mods_query_1": "The file that was modified based on these modifications is \"src/Core/Block/Adminhtml/System/Config/Form/SimplepathConfig.php\"."
+            },
+            {
+                "mods_query_2": "The file that was changed is:\n\nsrc/Core/Block/Adminhtml/System/Config/SimplePathAdmin.php"
+            },
+            {
+                "mods_query_3": "The file that was changed is \"src/Core/Model/Config/SimplePath.php\"."
+            }
+        ],
+        "prompt_4": [
+            {
+                "mods_change_query_1": "The type of change that occurred was MODIFY."
+            },
+            {
+                "mods_change_query_2": "The type of change that occurred was MODIFY."
+            },
+            {
+                "mods_change_query_3": "The changes are MODIFY type. In the given mods, both additions and deletions are presented, which implies modification of the necessary code and configurations. The change involves both deletion of old codes and addition of new ones in the file \"src/Core/Model/Config/SimplePath.php\"."
+            }
+        ]
+    },
+    "Row_83": {
+        "prompt_3": [
+            {
+                "mods_query_1": "The file that was changed based on these mods is \"docs/installation.rst\"."
+            }
+        ],
+        "prompt_4": [
+            {
+                "mods_change_query_1": "The change type is MODIFY."
+            }
+        ]
+    },
+    "Row_84": {
+        "prompt_3": [
+            {
+                "mods_query_1": "The file that was changed based on the modifications is \"src/Core/Block/Adminhtml/System/Config/SimplePathAdmin.php\"."
+            }
+        ],
+        "prompt_4": [
+            {
+                "mods_change_query_1": "The change type is MODIFY."
+            }
+        ]
+    },
+    "Row_85": {
+        "prompt_3": [
+            {
+                "mods_query_1": "The file that was modified based on this mods is `src/Payment/Block/Minicart/Button.php`."
+            },
+            {
+                "mods_query_2": "The file that was changed based on this mod is \"src/Payment/Observer/AddAmazonButton.php\"."
+            }
+        ],
+        "prompt_4": [
+            {
+                "mods_change_query_1": "The type of change that occurred is MODIFY."
+            },
+            {
+                "mods_change_query_2": "The type of change that occurred was MODIFY."
+            }
+        ]
+    },
+    "Row_86": {
+        "prompt_3": [
+            {
+                "mods_query_1": "The file that is changed based on this mod is \"src/Core/view/frontend/layout/default.xml\"."
+            },
+            {
+                "mods_query_2": "The file that was changed based on this mod is \"src/Core/view/frontend/web/css/source/_module.less\". The change_type was \"DELETE\" indicating the file was deleted."
+            }
+        ],
+        "prompt_4": [
+            {
+                "mods_change_query_1": "The type of change is MODIFY."
+            },
+            {
+                "mods_change_query_2": "The type of change that occurred was DELETE."
+            }
+        ]
+    },
+    "Row_87": {
+        "prompt_3": [
+            {
+                "mods_query_1": "The file that was changed based on these modifications is \"src/Login/view/frontend/web/js/amazon-redirect.js\"."
+            }
+        ],
+        "prompt_4": [
+            {
+                "mods_change_query_1": "The change type is MODIFY."
+            }
+        ]
+    },
+    "Row_88": {
+        "prompt_3": [
+            {
+                "mods_query_1": "The file that was deleted based on these modifications is `src/Payment/Setup/Table/AmazonPendingRefund.php`."
+            },
+            {
+                "mods_query_2": "The file that was modified based on this mod is \"src/Payment/Setup/UpgradeData.php\"."
+            },
+            {
+                "mods_query_3": "The changes were made in the file \"src/Payment/Setup/UpgradeSchema.php\"."
+            }
+        ],
+        "prompt_4": [
+            {
+                "mods_change_query_1": "The type of change that occurred is DELETE."
+            },
+            {
+                "mods_change_query_2": "The type of change that occurred is MODIFY."
+            },
+            {
+                "mods_change_query_3": "The change that occurred was a MODIFY change, as indicated in the \"change_type\" field."
+            }
+        ]
+    },
+    "Row_89": {
+        "prompt_3": [
+            {
+                "mods_query_1": "The file that was changed based on this mod is \"src/Payment/view/frontend/layout/checkout_index_index.xml\"."
+            },
+            {
+                "mods_query_2": "The file that was changed based on this mod is \"src/Payment/view/frontend/web/js/model/storage.js\"."
+            },
+            {
+                "mods_query_3": "The file that's changed based on this modification is \"src/Payment/view/frontend/web/js/view/form/element/email.js\"."
+            },
+            {
+                "mods_query_4": "The file that is changed based on this mod is \"src/Payment/view/frontend/web/js/view/shipping-address/list.js\"."
+            },
+            {
+                "mods_query_5": "The file that is changed based on this mod is \"src/Payment/view/frontend/web/js/view/shipping.js\"."
+            },
+            {
+                "mods_query_6": "Based on this mod, the file that has changed is:\n\nsrc/Payment/view/frontend/web/template/form/element/email.html"
+            }
+        ],
+        "prompt_4": [
+            {
+                "mods_change_query_1": "The change type that occurred was MODIFY."
+            },
+            {
+                "mods_change_query_2": "The type of change that occurred is MODIFY."
+            },
+            {
+                "mods_change_query_3": "The change type is MODIFY."
+            },
+            {
+                "mods_change_query_4": "The type of change that occurred is ADD."
+            },
+            {
+                "mods_change_query_5": "The change type that occurred was MODIFY."
+            },
+            {
+                "mods_change_query_6": "The type of change that occured is ADD."
+            }
+        ]
+    },
+    "Row_90": {
+        "prompt_3": [
+            {
+                "mods_query_1": "The file that was modified based on this mod is:\n\nsrc/Payment/view/frontend/web/js/view/checkout-widget-address.js\n"
+            },
+            {
+                "mods_query_2": "The file that has been modified is \"src/Payment/view/frontend/web/js/view/shipping.js\"."
+            }
+        ],
+        "prompt_4": [
+            {
+                "mods_change_query_1": "The MODIFIED change happened in the code. Lines of code were added and replaced in the existing file. The \"+\" sign indicates added code, while the \"-\" sign indicates deleted or replaced code. \n\n1. ADD: \"+ shippingService.isLoading(true);\" was added as a new line of code.\n2. MODIFY: \"- checkoutDataResolver.resolveShippingAddress();\" was replaced by \"+ checkoutDataResolver.resolveEstimationAddress();\"."
+            },
+            {
+                "mods_change_query_2": "The type of change that occurred is MODIFY."
+            }
+        ]
+    },
+    "Row_91": {
+        "prompt_3": [
+            {
+                "mods_query_1": "The file that was changed based on this mod is \"src/Payment/view/frontend/web/js/view/shipping.js\"."
+            }
+        ],
+        "prompt_4": [
+            {
+                "mods_change_query_1": "The change type that occurred is MODIFY."
+            }
+        ]
+    },
+    "Row_92": {
+        "prompt_3": [
+            {
+                "mods_query_1": "The file changed based on this mod is \"src/Core/Model/Config/SimplePath.php\"."
+            }
+        ],
+        "prompt_4": [
+            {
+                "mods_change_query_1": "The type of change that occurred was MODIFY."
+            }
+        ]
+    },
+    "Row_93": {
+        "prompt_3": [
+            {
+                "mods_query_1": "The file that is changed due to these modifications is \"src/Login/view/frontend/templates/oAuthRedirect.phtml\"."
+            }
+        ],
+        "prompt_4": [
+            {
+                "mods_change_query_1": "The change type that occurred is MODIFY."
+            }
+        ]
+    },
+    "Row_94": {
+        "prompt_3": [
+            {
+                "mods_query_1": "The file that has been modified based on this mod is \"src/Core/etc/config.xml\"."
+            }
+        ],
+        "prompt_4": [
+            {
+                "mods_change_query_1": "The type of changes that occured are ADD and MODIFY."
+            }
+        ]
+    },
+    "Row_95": {
+        "prompt_3": [
+            {
+                "mods_query_1": "The file that was changed based on this mod is `src/Login/view/frontend/web/template/login-button.html`."
+            },
+            {
+                "mods_query_2": "The file that was changed based on this mod is \"src/Payment/view/frontend/layout/checkout_index_index.xml\"."
+            },
+            {
+                "mods_query_3": "The file that was changed according to this mod is: \"src/Payment/view/frontend/web/js/view/shipping-address/inline-form.js\". This modification adds new content to the file."
+            },
+            {
+                "mods_query_4": "The file that was changed based on this mod is \"src/Payment/view/frontend/web/template/checkout-button.html\"."
+            },
+            {
+                "mods_query_5": "The file that was changed based on this mod is \"src/Payment/view/frontend/web/template/form/element/email.html\"."
+            },
+            {
+                "mods_query_6": "Based on this mods, the file that was changed is \"src/Payment/view/frontend/web/template/shipping-address/inline-form.html\"."
+            }
+        ],
+        "prompt_4": [
+            {
+                "mods_change_query_1": "The type of change that occurred is MODIFY."
+            },
+            {
+                "mods_change_query_2": "The change type is MODIFY."
+            },
+            {
+                "mods_change_query_3": "The type of change that occurred is ADD."
+            },
+            {
+                "mods_change_query_4": "The change that occurred was a MODIFY."
+            },
+            {
+                "mods_change_query_5": "The change type that occurred was MODIFY."
+            },
+            {
+                "mods_change_query_6": "The type of change that occurred is ADD."
+            }
+        ]
+    },
+    "Row_96": {
+        "prompt_3": [
+            {
+                "mods_query_1": "The file that got modified based on this mod is \"src/Core/Model/Config/SimplePath.php\"."
+            }
+        ],
+        "prompt_4": [
+            {
+                "mods_change_query_1": "The change type that occurred was \"MODIFY\"."
+            }
+        ]
+    },
+    "Row_97": {
+        "prompt_3": [
+            {
+                "mods_query_1": "The file that was changed based on this mod is \"src/Core/Controller/Simplepath/Listener.php\"."
+            },
+            {
+                "mods_query_2": "The file that was changed is \"src/Core/Model/Config/SimplePath.php\"."
+            }
+        ],
+        "prompt_4": [
+            {
+                "mods_change_query_1": "The type of change that occurred is MODIFY."
+            },
+            {
+                "mods_change_query_2": "The change type that occured is MODIFY."
+            }
+        ]
+    },
+    "Row_98": {
+        "prompt_3": [
+            {
+                "mods_query_1": "The file that was modified based on this mod is \"src/Payment/Observer/CompleteOrderStatus.php\"."
+            }
+        ],
+        "prompt_4": [
+            {
+                "mods_change_query_1": "The type of change that occurred was MODIFY."
+            }
+        ]
+    },
+    "Row_99": {
+        "prompt_3": [
+            {
+                "mods_query_1": "The file that was changed based on the mods is \"src/Payment/view/frontend/layout/checkout_index_index.xml\"."
+            }
+        ],
+        "prompt_4": [
+            {
+                "mods_change_query_1": "The type of change that occurred is MODIFY."
+            }
+        ]
+    },
+    "Row_100": {
+        "prompt_3": [
+            {
+                "mods_query_1": "The file that was changed based on this modification is \"src/Login/view/frontend/templates/login.phtml\"."
+            },
+            {
+                "mods_query_2": "The file that was changed is: src/Payment/view/frontend/templates/minicart-button.phtml"
+            },
+            {
+                "mods_query_3": "The file that has been modified based on the mods is: \n\n`src/Payment/view/frontend/templates/payment-link-product-page.phtml`"
+            },
+            {
+                "mods_query_4": "The file that has been modified based on this mod is \"src/Payment/view/frontend/templates/payment-link.phtml\"."
+            },
+            {
+                "mods_query_5": "The file changed based on this mod is \"src/Payment/view/frontend/web/js/amazon-product-add.js\"."
+            }
+        ],
+        "prompt_4": [
+            {
+                "mods_change_query_1": "The change type that occurred is MODIFY."
+            },
+            {
+                "mods_change_query_2": "The type of change that occurred is a MODIFY change."
+            },
+            {
+                "mods_change_query_3": "The change type that occurred was \"MODIFY\"."
+            },
+            {
+                "mods_change_query_4": "The type of change that occurred is MODIFY."
+            },
+            {
+                "mods_change_query_5": "The type of change that occurred was MODIFY."
+            }
+        ]
+    }
+}

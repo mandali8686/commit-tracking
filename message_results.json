@@ -1,0 +1,802 @@
+{
+    "Row_1": {
+        "prompt_1": {
+            "message_query": "The message isn't clear enough to determine specific files, as it doesn't provide a concrete list of files changed. However, if support for Angular-CLI generators was added, the changes could potentially affect the following files:\n\n- package.json: Dependencies might have been added or updated, specifically related to Angular-CLI.\n\n- angular.json / .angular-cli.json: This is the configuration file for Angular-CLI. New generator scripts may have been added.\n\n- New schematic/generator files: If support for specific or custom generators was added, new code files might have been introduced.\n\n- Files generated using Angular-CLI schematics (like components, services, modules, etc.): If any new component, service, module etc. were generated using CLI, those files will get added.\n\nPlease, check the commit for specific file changes."
+        },
+        "prompt_2": {
+            "message_change_query": "ADD"
+        }
+    },
+    "Row_2": {
+        "prompt_1": {
+            "message_query": "The specific files that were amended are not specified in the message \"fix ng-router-loader for aot nested lazy loaded modules\". This might refer to a variety of files, depending on the structure of the project.\n\nNevertheless, files that could possibly be impacted contain:\n\n1. Configuration files related to Angular's Ahead-of-Time (AOT) compiler, such as angular.json or tsconfig.json, as these inform the build system about the AOT settings.\n   \n2. Router configuration files, for instance, app-routing.module.ts, as this could affect how modules are lazy-loaded.\n   \n3. Individual module files, if they are being lazily-loaded and need to have their loading mechanism adjusted for AOT.\n   \n4. Possibly the package.json file to specify a newer version of the ng-router-loader that includes a fix for the nesting issue.\n   \n5. Any service or utility files that interact with Angular's router and lazy loading system.\n\nPlease note that for a more precise answer, we would need more specific information about the structure of the codebase, the specific files involved, and how they're being modified."
+        },
+        "prompt_2": {
+            "message_change_query": "MODIFY"
+        }
+    },
+    "Row_3": {
+        "prompt_1": {
+            "message_query": "The message \"fix ng-router-loader\" doesn't provide specific information about which files were changed. This is just a commit message that describes the changes made in a general way. To find out which specific files were changed, you would need to look into the details of the commit itself. This could be done using version control software such as Git."
+        },
+        "prompt_2": {
+            "message_change_query": "MODIFY"
+        }
+    },
+    "Row_4": {
+        "prompt_1": {
+            "message_query": "Based on this message, it's not directly clear which specific files have been changed. However, the change likely happened somewhere in configuration files where dependencies and their versions are managed. In a typical Angular project, these could potentially include:\n\n- `package.json` file\u202fwhich contains the dependencies packages of the project,\n- `package-lock.json` or `yarn.lock`, which lock the versions of the dependencies.\n\nThe specific change would be a modification of the version number of `ng-router-loader` package."
+        },
+        "prompt_2": {
+            "message_change_query": "MODIFY"
+        }
+    },
+    "Row_5": {
+        "prompt_1": {
+            "message_query": "The message doesn't specify which specific files were changed. However, considering the context of the message, changes may have been made to code and configuration files related to GitHub deployment, routing (because of the mention of \"hash mode\"), and a HTML file (probably for error handling) named \"404.html\". Check the commit changes for exact files."
+        },
+        "prompt_2": {
+            "message_change_query": "MODIFY"
+        }
+    },
+    "Row_6": {
+        "prompt_1": {
+            "message_query": "The message doesn't specify which files were changed. It simply states a general action (\"temporary remove desktop build\") made in the context of continuous integration, probably to the build system or configuration files related to generating a desktop version of the software application. The specifics would need to be checked in version control system for exact changed files."
+        },
+        "prompt_2": {
+            "message_change_query": "DELETE"
+        }
+    },
+    "Row_7": {
+        "prompt_1": {
+            "message_query": "The message is quite ambiguous and does not specify any particular files names which were changed. However, based on the message, it seems that changes may have been made to files related to \"gitdeploy\" and \"desktop render\" functionality. This message could be related to any files such as script files, configuration files or source code files used in deployment or rendering in a desktop environment. \n\nWithout further context or details, it's hard to ascertain exactly which files were changed. To get the actual list of files that have been changed, one can use various git commands like git show or git diff."
+        },
+        "prompt_2": {
+            "message_change_query": "MODIFY"
+        }
+    },
+    "Row_8": {
+        "prompt_1": {
+            "message_query": "The message doesn't specify exactly which files are changed. However, typically updates to dependencies might involve files like `package.json` or `package-lock.json` in a Node.js project, `requirements.txt` in a Python project, or `Gemfile` or `Gemfile.lock` in a Ruby project.\n\nFixing something related to Travis CI might involve changes to `.travis.yml` or other CI configuration files.\n\nBut remember, without specific detail, it's just an educated guess what files might be changed based on this message."
+        },
+        "prompt_2": {
+            "message_change_query": "MODIFY"
+        }
+    },
+    "Row_9": {
+        "prompt_1": {
+            "message_query": "The message doesn't specify which files have been changed. It just indicates that some files related to documentation, possibly those reporting known bugs, have been updated. This could potentially refer to any documentation files such as README.md, BUGS.md, or even code comments. To identify which specific files have been changed, you would need to look at the associated commit details."
+        },
+        "prompt_2": {
+            "message_change_query": "The type of change that occurred is MODIFY."
+        }
+    },
+    "Row_10": {
+        "prompt_1": {
+            "message_query": "The message is quite vague and doesn't specify which files were exactly changed. However, generally these updates might involve the following files:\n\n1. package.json: This file contains the list of dependencies for a project. An upgrade in dependencies would necessitate a change in this file.\n\n2. package-lock.json or yarn.lock: These files lock the versions of the dependencies specified in the package.json file. They might be changed when dependencies are updated.\n\n3. app files: Any files that make up the application could be changed. This may include JavaScript files, HTML files, CSS files and many more.\n\n4. Configuration files: Many libraries and frameworks need configuration files. Such files may also be updated.\n\n5. Documentation: If there are significant changes, the README.md or other documentation files may be updated.\n\nIn the context of Git repositories, you can check what files exactly changed by browsing the commit that included this message."
+        },
+        "prompt_2": {
+            "message_change_query": "MODIFY"
+        }
+    },
+    "Row_11": {
+        "prompt_1": {
+            "message_query": "The file that is changed based on this message is \"composer.json\"."
+        },
+        "prompt_2": {
+            "message_change_query": "MODIFY"
+        }
+    },
+    "Row_12": {
+        "prompt_1": {
+            "message_query": "Without context or a specific error message, I can't provide accurate file names. However, in a general scenario, when you're asked to add some missing code to the Amazon Payment template, likely files that could be changed include:\n\n- Amazon Pay specific template files (.phtml or .html). In Magento 2, they might be under/view/frontend/templates directory in the Amazon Pay module.\n- Related CSS or LESS files for styling.\n- Javascript files if the modification relates to client-side functionality.\n- PHP files if there's server side processing involved in the Amazon Pay Module.\n\nPlease note this is just a general assumption. For a specific answer, more details on the context or the error message are needed."
+        },
+        "prompt_2": {
+            "message_change_query": "The type of change that occurred is ADD."
+        }
+    },
+    "Row_13": {
+        "prompt_1": {
+            "message_query": "Without specific context, it's hard to provide an accurate answer. However, in a generalized setup, changes might be needed in the following files:\n\n1. Mixin file (if exists): where the new mixin for adding agreement data could be added.\n\n2. Amazon service-related file or Amazon SDK/API-related file: where the mixin would be included to handle the submission task.\n\n3. Model or schema file: This might require changes if you are storing the agreement data and it has new fields that didn't exist before.\n\n4. Testing files: Wherever the Amazon submission is tested, as new tests would need to be added for this new functionality.\n\nThese are just possible examples, the actual files may vary based on the project architecture and the coding practices you or your company follows."
+        },
+        "prompt_2": {
+            "message_change_query": "ADD"
+        }
+    },
+    "Row_14": {
+        "prompt_1": {
+            "message_query": "Without specific context on the codebase and project, it's difficult to identify which exact files would be changed. However, generally, these might be some of the files or areas potentially affected based on the message:\n\n1. Cart Component Files: If there's a separate component file for the cart button, this is one of the places where main changes might occur. \n\n2. Payment Types Component Files: It is implied that the cart needs to be in line with other payment types, so these components' files might also be affected.\n\n3. Site or App Layout Files: If the positioning of components on the page is determined by a main layout file, this might need to be adjusted as well.\n\n4. CSS or Styling Files: If repositioning or restyling is required, your CSS or other styling files such as SCSS/SASS may also need to be modified.\n\n5. Test Files: If your project includes tests (unit, integration, etc.), you might need to adjust these for the changes in the cart and payment components.\n\n6. E-commerce related files: Being it's an e-commerce operation, any related helper or utility files might also need adjusting.\n\nAgain, this is very generic and the specifics would depend on the project's structure and technologies used."
+        },
+        "prompt_2": {
+            "message_change_query": "MODIFY"
+        }
+    },
+    "Row_15": {
+        "prompt_1": {
+            "message_query": "Without a specific context or more detailed information, it's impossible to accurately determine which files may have been changed based on your message. However, typically, changes related to display and validation in online shopping carts can involve files like:\n\n1. shoppingCart.js (or .php, .py, etc.): This file might include the main logic for the shopping cart, and could be where changes are made to correct the display.\n\n2. Validator.js (or .php, .py, etc.): This file may contain validation logic and could have been altered to add a display validator.\n\n3. Css files: Any CSS file associated with the shopping cart display may have been modified to enact changes on the appearance.\n\n4. Html files: If the cart is part of a webpage, its HTML files could be where changes were made to correct the display on cart.\n\nThe exact files will depend on your specific project structure. It's best to consult with the developer or development team for precise information."
+        },
+        "prompt_2": {
+            "message_change_query": "ADD, MODIFY"
+        }
+    },
+    "Row_16": {
+        "prompt_1": {
+            "message_query": "Without more specific context or details, it's challenging to accurately determine which files have been changed. The message suggests modifications related to category exclusion and product view validation; typically, these could be files related to product management, category management or product view in an e-commerce software system. These might include JavaScript files for client-side validation, PHP controllers, model files for databases, HTML, and CSS files for view, among others. Please provide more context for a more accurate answer."
+        },
+        "prompt_2": {
+            "message_change_query": "MODIFY"
+        }
+    },
+    "Row_17": {
+        "prompt_1": {
+            "message_query": "The message doesn't give specific files that are changed, as this would be dependent on the structure of the specific project. However, typically files that could be changed to fix display issues with a \"minicart\" functionality might include:\n\n1. JavaScript files related to the minicart functionality; these files could be responsible for handling user interactions with the minicart (like adding or removing items) and for rendering the minicart on the page.\n\n2. CSS files to adjust the layout, positioning, colors, typography, or other visual aspects of the minicart.\n\n3. HTML template files where the minicart is declared.\n\n4. PHP (or server-side language) files, if the problem with the minicart is related to server-side processing, like fetching the cart data from the database.\n\n5. Any test files associated with the above files, if the application's testing architecture calls for it.\n\nThe project-runner will have a better insight into which specific files were changed based on their understanding of the codebase and the context provided by this message."
+        },
+        "prompt_2": {
+            "message_change_query": "MODIFY"
+        }
+    },
+    "Row_18": {
+        "prompt_1": {
+            "message_query": "Without specific details about the structure of the project or codebase, it's challenging to provide an exact answer. \n\nHowever, in a general scenario involving a typical web application, files implicated could involve:\n\n1. Order Model or Entity (language-specific, maybe order.js, order.php, Order.java, Order.py depending)\n2. Quote Model or Entity\n3. Any Services or Controllers that were previously accessing the 'get' method from 'quote' (for instance in quoteService.js or quoteController.php)\n4. Test files associated with the above mentioned files.\n5. Possibly any frontend files that make use of this 'get' method if it's exposed to the frontend somehow - maybe in your Angular components or React components or Vue components.\n\nUsually, this will involve refactoring the part of the code where 'get' is being called from 'quote' and changing it to be called from 'order' instead as per the new requirement. This will be applicable in any scripts where the 'get' method from 'quote' is being used. \n\nI would recommend using your IDE's or code editor's search functionality to search for '.get' or '.quote' to see where in your project this might be referenced before making changes."
+        },
+        "prompt_2": {
+            "message_change_query": "MODIFY"
+        }
+    },
+    "Row_19": {
+        "prompt_1": {
+            "message_query": "Without specific details, it's impossible to say exactly which files were changed. However, in a general sense, files that might be changed could include:\n\n1. Files related to the payment widgets: These could be JavaScript or TypeScript files, CSS files, or HTML template files, depending on how the widgets are implemented.\n\n2. Configuration files: If the scope parameter is a configuration setting, files such as YAML or JSON config files, or environment variable files may be changed.\n\n3. Testing files: Automated test files may be altered to test the new functionality.\n\n4. Documentation: Any files or docs explaining how to use the payment widgets may be updated to include the new scope parameter.\n\n5. Server-side API files: If the scope parameter impacts server-side behavior, files in the server-side codebase dealing with payments may also be altered. \n\nPlease consider to provide more information or context so we can provide a more accurate answer."
+        },
+        "prompt_2": {
+            "message_change_query": "ADD"
+        }
+    },
+    "Row_20": {
+        "prompt_1": {
+            "message_query": "Without more specific information about the context in which the layout was changed, it's difficult to provide a specific list of files that might be affected. However, typically, in a Magento 2.1 project, if the checkout layout has been changed, it could involve changes in the following files:\n\n1. app/design/frontend/<your_vendor>/<your_theme>/Magento_Checkout/layout/checkout_index_index.xml\n2. app/design/frontend/<your_vendor>/<your_theme>/Magento_Checkout/templates/\n3. app/design/frontend/<your_vendor>/<your_theme>/Magento_Checkout/web/js/\n4. app/design/frontend/<your_vendor>/<your_theme>/Magento_Checkout/web/css/\n\nThese paths are based on the default Magento 2.1 directory structure. The actual file(s) you need to look at would be dependent on what specific layout changes were made.\n\nKeep in mind that this list is not exhaustive, and the exact files could vary based on your Magento instances.\n\nThe changes could also be implemented via a custom module that modifies the checkout layout. If this is the case, the files could be located in a different directory (app/code/<your_module>) and may also involve changes to different file types (e.g., .phtml, .xml, .js, .css, .less files).\n\nOverall, without knowing the specifics of your Magento setup and exactly what changes were made to the checkout layout, this is a best guess at what could have changed. You may need to perform a file comparison or track changes in your version control system to find exactly what changed."
+        },
+        "prompt_2": {
+            "message_change_query": "MODIFY"
+        }
+    },
+    "Row_21": {
+        "prompt_1": {
+            "message_query": "The message does not provide information about any specific files being changed."
+        },
+        "prompt_2": {
+            "message_change_query": "The message is not clear about any changes, so it's NOT APPLICABLE."
+        }
+    },
+    "Row_22": {
+        "prompt_1": {
+            "message_query": "Based on the message, it seems two types of files have been added: GitHub (GH) issue template files and GitHub pull request (PR) template files. These files are typically found in the repository's `.github` directory. The issue template is used for new submissions to your issue tracker, while the PR template is used when someone creates a new pull request. The exact file names can vary, the standard ones are\n\n1. `.github/ISSUE_TEMPLATE.md` - for issue template.\n2. `.github/PULL_REQUEST_TEMPLATE.md` - for PR template.\n\nSometimes, these templates can be in a special `ISSUE_TEMPLATE` or `PULL_REQUEST_TEMPLATE` directory under the `.github` folder, especially if the repository wants to provide multiple templates for different types of issues and PRs."
+        },
+        "prompt_2": {
+            "message_change_query": "ADD"
+        }
+    },
+    "Row_23": {
+        "prompt_1": {
+            "message_query": "The message is too vague to specifically identify which files were changed. However, based on the context, the files likely relate to language settings or localization, including language files in libraries and the user interface. These files could be in different formats (.json, .xml, .po etc) if a codebase is involved. Possibly, files related to branding such as logo files, configuration files, templating files for frontend, or hardcoded strings in the codebase are affected. \n\nIt is best to refer back to the commit changes or ask the person who made the changes for more information. Without more specific details, it's difficult to give a definite answer."
+        },
+        "prompt_2": {
+            "message_change_query": "MODIFY"
+        }
+    },
+    "Row_24": {
+        "prompt_1": {
+            "message_query": "Based on the message, the file that was changed is likely the Readme file."
+        },
+        "prompt_2": {
+            "message_change_query": "MODIFY"
+        }
+    },
+    "Row_25": {
+        "prompt_1": {
+            "message_query": "The message \"Updating platform_id\" is too vague to determine what specific files are changed. It would depend on the context, the platform, programming language or the system you're using. It could affect configuration files, system files, program files, or potentially others. More detailed information or specifications would be needed to provide a precise answer."
+        },
+        "prompt_2": {
+            "message_change_query": "MODIFY"
+        }
+    },
+    "Row_26": {
+        "prompt_1": {
+            "message_query": "Without the specific context or more detailed information, it's hard to accurately determine which exact files are changed. However, in a general sense, if the message is referring to an e-commerce platform like Magento, Shopify or WooCommerce in Wordpress, changes might be needed in the backend PHP files or the admin panel templates that manage the display of store URLs.\n\nAs a general guide:\n\n1. Configuration or settings files: These files may be changed to add new functions or elements, such as showing all store URLs.\n\n2. Admin Panel templates: Files in themes (for CMS like WordPress) or modules that control the layout and display of the backend admin area might be updated to visually present the URLs.\n\n3. Database files or scripts: Depending on the system, alteration of database or creation of scripts might be needed to fetch and store all the URLs.\n\n4. Whitelisting function files: Files that control the whitelisting function might also be changed to include or accommodate the URLs being pulled from the stores.\n\nNote: Always remember to take a backup before doing any changes on a live site. Plus, the changes are highly dependent on the platform being used, and the current structures in place. It is advisable to seek help or guidance from experts who have a good understanding of the specific platform you are using."
+        },
+        "prompt_2": {
+            "message_change_query": "ADD"
+        }
+    },
+    "Row_27": {
+        "prompt_1": {
+            "message_query": "Without more information or context, it is not possible determine which files are changed based on the message \"final name of the module\". Possible files might be connected to a coding or programming module, but the specific files would vary based on the platform, programming language, and project details."
+        },
+        "prompt_2": {
+            "message_change_query": "The message is incomplete. Could you please provide more information or context?"
+        }
+    },
+    "Row_28": {
+        "prompt_1": {
+            "message_query": "Without specific details about the structure of the project it's challenging to define exactly which files are changed. However, based on common practices, changes might have been made to the following types of files:\n\n1. Configuration File: Where the option to enable/disable the new feature is stored.\n2. PHP/Backend Files: That control the login button's visibility and functionality.\n3. HTML/CMS Pages: Where the button is physically located on the sites.\n4. JavaScript or jQuery Files: To control the display of the button based on the configuration.\n5. CSS Files: To adjust styling of the button when it's disabled.\n\nFor example, if it's a WordPress project, PHP files in theme, possible some customized plugins and settings option in backend panel would be changed. If it's a more traditional web development project, it could be a modification in server-side scripts like PHP, ASP.NET etc., front-end files like HTML, JavaScript and CSS, as well as configuration files like .env or .json files.\n\nBut the actual file names and types will entirely depend on the structure of the particular project."
+        },
+        "prompt_2": {
+            "message_change_query": "ADD"
+        }
+    },
+    "Row_29": {
+        "prompt_1": {
+            "message_query": "The message itself does not provide specific details on what files were changed. However, files that could potentially be affected might include:\n\n1. Admin settings file(s) where switch settings and configurations are stored. This could be in files like \"settings.py\" or \"config.php\" depending on the system used.\n2. Minicart related file(s) where the code for loading the button might exist. This could be in JavaScript files, for example \"minicart.js\" or in files like \"minicart.php\" or \"minicart.html\" if it's used in combination with backend logic.\n3. CSS file(s) if the switch potentially affects the design or layout, for example \"style.css\".\n4. Any related views, templates, or frontend files where the button is actually rendered that will now need to conditionally load or not load based on the switch setting.\n\nPlease note, these are just potential files. The actual changes will depend on the specific project structure, programming language and the frameworks being used. For a more accurate assessment, you should look at the commit details or ask the person who made the change."
+        },
+        "prompt_2": {
+            "message_change_query": "ADD"
+        }
+    },
+    "Row_30": {
+        "prompt_1": {
+            "message_query": "The message does not provide specific details about which files were changed. However, based on the context, it is likely that the changes may involve the following files or their equivalents based on language or platform:\n\n1. package.json or composer.json (or equivalent): These files are typically where dependencies are declared in JavaScript (Node.js, in particular) and PHP projects, respectively. \"Jquery/jquery-storageapi\" might have been added here.\n\n2. Any file(s) where $.cookieStorage is used: The changes added the requirement of jquery/jquery-storageapi as a dependency, indicating that $.cookieStorage is being utilized somewhere in these scripts. The specific files changes would depend on the exact structure of the project and can include any scripts using this object.\n\n3. Configuration files: This could include any form of configuration or setup files that determine the project's dependencies during installation or deployment.\n\nPlease note that the exact file names and locations will depend on the specific project and may have different names. Always check your project documentation or consult with your project manager or lead developer."
+        },
+        "prompt_2": {
+            "message_change_query": "ADD"
+        }
+    },
+    "Row_31": {
+        "prompt_1": {
+            "message_query": "The message does not specify which files have been changed. It only mentions that \"Title underlines have been too short\", which suggests that there may have been some errors or changes in formatting in one or more files. Without more context or details, it's impossible to identify which specific files these changes refer to."
+        },
+        "prompt_2": {
+            "message_change_query": "MODIFY"
+        }
+    },
+    "Row_32": {
+        "prompt_1": {
+            "message_query": "The message does not provide specific details about which files were changed. Generally, this could involve CSS/SCSS files, HTML files, JavaScript files or any other related files that have control over the titling or formatting of a website. The message only indicates that an issue with a title underline has been fixed."
+        },
+        "prompt_2": {
+            "message_change_query": "MODIFY"
+        }
+    },
+    "Row_33": {
+        "prompt_1": {
+            "message_query": "The message does not provide specific information about which files were changed. However, it suggests that an \"admin layout\" file was removed. This file could be named anything depending on the system used, but common names could be \"admin-layout.css\", \"layout-admin.html\", \"admin_layout.php\", etc. The exact file name and its extension would depend on the programming language and the project conventions that were used."
+        },
+        "prompt_2": {
+            "message_change_query": "DELETE"
+        }
+    },
+    "Row_34": {
+        "prompt_1": {
+            "message_query": "The message context is missing to provide the appropriate answer. Could you please provide it?"
+        },
+        "prompt_2": {
+            "message_change_query": "The message was not provided in the prompt. Please provide the message to continue."
+        }
+    },
+    "Row_35": {
+        "prompt_1": {
+            "message_query": "The message \"Admin version data added\" is quite general and does not specify any particular file being changed. The changes could potentially be in any file that has to do with the admin version of a system, perhaps some configuration or database file. The exact files would largely depend on what system is being discussed and its particular file structure."
+        },
+        "prompt_2": {
+            "message_change_query": "ADD"
+        }
+    },
+    "Row_36": {
+        "prompt_1": {
+            "message_query": "The exact files that would be changed based on this message can depend on the structure and language of your program. However, usually this kind of change will involve the following types of files:\n\n1. CSS files: These files determine the style of elements on your website, like the colors of notifications. For instance, the change could be in a file like \"styles.css\" or \"notifications.css\".\n   \n2. JavaScript files: These files control the behavior of your website. Here, the behavior of your \"Charge on Order\" notification was changed. The changes might be in a file like \"notifications.js\" or \"alerts.js\".\n\n3. HTML files: These files create the structure of a webpage. An HTML file is less likely to be changed in this instance, but if different classes are used for different notification types, it's a possibility.\n\n4. Backend files: If these notifications are generated on the backend, files there may have been changed as well. The name and type of these files would depend heavily on how your backend is structured and what language it's written in.\n\nFor a more accurate answer, you'd need to look at the commit itself, the corresponding pull request, or ask the person who made the change."
+        },
+        "prompt_2": {
+            "message_change_query": "MODIFY"
+        }
+    },
+    "Row_37": {
+        "prompt_1": {
+            "message_query": "Without additional context, it can be challenging to determine the exact files that were changed based on this message. However, typically when a new configuration option is added in a software project, the following files or areas might be affected:\n\n1. Configuration files: This could belong to the software's main configuration file or a component-specific configuration file depending on the architecture of the software.\n2. User interface files: If the software has a user interface, files related to the settings or configuration page might be affected to add the new \"Store Name\" option.\n3. Back-end service or controller files: These might need to react to changes in the \"Store Name\" setting.\n\nFor more specificity, you would need to know the type of software, the programming language used, and how the codebase is organised."
+        },
+        "prompt_2": {
+            "message_change_query": "ADD"
+        }
+    },
+    "Row_38": {
+        "prompt_1": {
+            "message_query": "The message does not provide specific file names that were changed. This is typically provided in other parts of a commit message or in the detailed change log. However, the changes likely involved program files related to the Amazon checkout widget and the calculation or monitoring of the quote grand total, potentially in a web development project.\n\nOnly inferring from the message given, changes could potentially occur in files like:\n\n1. AmazonCheckoutWidget.js (or .ts, or related file extensions) - Where the functionality of the Amazon checkout widget is defined.\n\n2. QuoteCalculator.js (or equivalent) - Where the quote grand total is calculated.\n\n3. CheckoutController.js (or equivalent) - Where the main checkout process is controlled, and where the new feature checking the grand total might be implemented.\n\nPlease note that actual file names and locations vary greatly based on the project's specific structure and organization."
+        },
+        "prompt_2": {
+            "message_change_query": "ADD"
+        }
+    },
+    "Row_39": {
+        "prompt_1": {
+            "message_query": "Without more detailed information, it's hard to say exactly. However, it's likely that files within the shipping information plugin itself have been modified to add in this new functionality. This could include PHP, JavaScript, or other types of code files that govern the plugin's behavior. \n\nSome potential files that may be affected include:\n\n- The main plugin file (if the change was significant, there might be updates here to reflect a new version number, for example)\n- Files related to calculating shipping costs \n- Files related to retrieving and using quote data \n\nWithout specifics, it's hard to give a definitive list. The files would be specific to the structure and setup of the said shipping information plugin. It could be a single file or multiple files including core logic and data handling files, to user interface files, etc."
+        },
+        "prompt_2": {
+            "message_change_query": "MODIFY"
+        }
+    },
+    "Row_40": {
+        "prompt_1": {
+            "message_query": "Based on the message given, it's impossible to determine what specific files have been changed. The change could have happened over several files or within a specific payment or notification system in a software. Without clear context or more in-depth information, it's impossible to provide a definitive list of files. \n\nHowever, in general, the changes may have been made in files related to the following:\n\n1. Payment processing files\n2. Notification system files\n3. User interface files where the notification was previously displayed\n4. Backend logic that handles these notifications\n\nFor example, in a web application, HTML, CSS, JavaScript, and several backend files could have been affected. Same goes for native mobile applications where files of the respective programming language (i.e. Swift for iOS, Kotlin for Android) may have been altered. \n\nHowever, to comprehensively pinpoint the actual files, the specific software or system details need to be known."
+        },
+        "prompt_2": {
+            "message_change_query": "DELETE"
+        }
+    },
+    "Row_41": {
+        "prompt_1": {
+            "message_query": "Without the specific context or the exact message content, it's hard to say exactly what files could be modified. However, when updating PHP versions for Magento, changes could potentially occur in the following files:\n\n1. `.htaccess`: This file is generally located in the root directory and can be used to specify the PHP version.\n\n2. `composer.json` and `composer.lock`: These files store information about which PHP versions your Magento setup is compatible with - you may need to update these if you're changing PHP versions.\n\n3. The `php.ini` file: This file contains the settings of PHP on your server. \n\n4. Any Docker- or virtualization-related configuration files, if your setup uses them - for example, a Dockerfile that sets up your Magento environment.\n\n5. If you use a platform like cPanel or Plesk to manage your site, it might have its own configuration files too.\n\nThese are just possibilities and actual impacted files can vary based on server environment and the method used to change PHP versions. To know the exact files, it's always recommended to follow the official Magento documentation or get help from a Magento/PHP expert. \n\nRemember to thoroughly test your Magento store in a staging environment before pushing any changes to your live store."
+        },
+        "prompt_2": {
+            "message_change_query": "MODIFY"
+        }
+    },
+    "Row_42": {
+        "prompt_1": {
+            "message_query": "The message does not provide information about any specific files that are changed."
+        },
+        "prompt_2": {
+            "message_change_query": "The message is not provided in the prompt. Could you provide more details?"
+        }
+    },
+    "Row_43": {
+        "prompt_1": {
+            "message_query": "The message provided does not contain information on what files are changed. Please provide a more detailed description or message."
+        },
+        "prompt_2": {
+            "message_change_query": "MODIFY"
+        }
+    },
+    "Row_44": {
+        "prompt_1": {
+            "message_query": "The message \"Version info update\" does not provide specific details about which files have been changed. It generally refers to an update in the version number of a software or a program. This usually involves updating files related directly to the versioning info of a program/software, such as configuration files, build scripts or documentation. But without more specific context, it's hard to specify which exact files have been changed."
+        },
+        "prompt_2": {
+            "message_change_query": "MODIFY"
+        }
+    },
+    "Row_45": {
+        "prompt_1": {
+            "message_query": "Without any clear context or specific details, it's quite tricky to explicitly say what files are changed based on the provided message. However, generally, in a scenario where you are asked to have a Force extension using built-in Modernizr plugin, changes often occur in JavaScript files or configuration files where Modernizr is configured or called, such as in `.js` or `.html` files.\n\nFiles that may potentially be changed include:\n\n1. main.js - or equivalent main JavaScript file where plugins are imported or called.\n2. modernizr-config.json - or equivalent configuration file for Modernizr if any.\n3. Index.html - or equivalent HTML files where the Modernizr javascript file (<script> tag) is linked.\n\nPlease remember that actual file names, types or locations can greatly vary based on the project's specific structure and technology stack."
+        },
+        "prompt_2": {
+            "message_change_query": "ADD"
+        }
+    },
+    "Row_46": {
+        "prompt_1": {
+            "message_query": "The message does not provide specific details about which files were changed. You would need more contextual information to determine which files were affected by this fix."
+        },
+        "prompt_2": {
+            "message_change_query": "MODIFY"
+        }
+    },
+    "Row_47": {
+        "prompt_1": {
+            "message_query": "The message does not provide specific details on which files were changed. However, typically, the files that might be impacted could include:\n\n1. Package.json or bower.json or any other package management files: These files might have been altered to include the correct versions of Modernizr.\n2. Modernizr Configuration file (modernizr-config.json): If any specific feature tests were added for better v2 and v3 API support.\n3. Any JavaScript or HTML files where Modernizr is utilized: These might need changes to correctly utilise APIs from both versions of Modernizr.\n4. Any build or configuration files (like webpack.config.js, gruntfile.js, gulpfile.js etc.): Changes are likely here if new build steps were added to incorporate both versions of Modernizr.\n\nPlease note, this is a speculative answer. The exact changes could be better determined with more specific details or access to the actual codebase or change log."
+        },
+        "prompt_2": {
+            "message_change_query": "ADD"
+        }
+    },
+    "Row_48": {
+        "prompt_1": {
+            "message_query": "The message you've provided is incomplete. Please provide more details or the whole message for a proper answer."
+        },
+        "prompt_2": {
+            "message_change_query": "MODIFY"
+        }
+    },
+    "Row_49": {
+        "prompt_1": {
+            "message_query": "The message does not provide specific details about what files were changed. In a coding context, it seems some safety features related to payment methods were updated and aligned particularly for Amazon. However, without more information, it's impossible to specify exactly which files were edited. The changes could potentially involve files related to payment processing, order processing, and/or user operations."
+        },
+        "prompt_2": {
+            "message_change_query": "MODIFY"
+        }
+    },
+    "Row_50": {
+        "prompt_1": {
+            "message_query": "The file that was changed based on this message is \"installation.rst\"."
+        },
+        "prompt_2": {
+            "message_change_query": "MODIFY"
+        }
+    },
+    "Row_51": {
+        "prompt_1": {
+            "message_query": "The message suggests that files in the \"Installation Section\" of the documentation were changed. However, without any specific names or further context, it's impossible to clearly determine which exact files have been altered. The files could be in various formats such as .docx, .txt, .md (markdown), or others like .rst (RestructuredText) typically used in Python documentation."
+        },
+        "prompt_2": {
+            "message_change_query": "MODIFY"
+        }
+    },
+    "Row_52": {
+        "prompt_1": {
+            "message_query": "The file that is changed based on this message is \"overview.rst\"."
+        },
+        "prompt_2": {
+            "message_change_query": "MODIFY"
+        }
+    },
+    "Row_53": {
+        "prompt_1": {
+            "message_query": "The file that is changed based on this message is conf.py."
+        },
+        "prompt_2": {
+            "message_change_query": "MODIFY"
+        }
+    },
+    "Row_54": {
+        "prompt_1": {
+            "message_query": "The exact files changed can vary greatly depending on the structure and coding style of your project. Typically, changes like these would involve the following types of files:\n\n1. JavaScript files related to Amazon Payment Widget and its authentication process\n2. Server-side scripts (like PHP, Python, NodeJS) that handle Amazon Payment service\n3. HTML files where Amazon Payment Widget is implemented\n\nHowever, without specific details provided regarding the project structure and frameworks used, it's not possible to exactly pinpoint the files. \n\nThe best way to determine this would be to check the version control system (like Git) that was used and see the diff changes made in the commit mentioned in this message."
+        },
+        "prompt_2": {
+            "message_change_query": "MODIFY"
+        }
+    },
+    "Row_55": {
+        "prompt_1": {
+            "message_query": "Based on this message, only one file is changed: amazon-button.js."
+        },
+        "prompt_2": {
+            "message_change_query": "MODIFY"
+        }
+    },
+    "Row_56": {
+        "prompt_1": {
+            "message_query": "Without more context, it's difficult to determine exactly which files were changed. However, in the case of a software project, changes might have been made to files related to path management, routing, mapping, or any other component that could involve 'paths'. It might also involve documents or files that handle functions, class definitions, or interfaces for this new \"SimplePath\" feature."
+        },
+        "prompt_2": {
+            "message_change_query": "ADD"
+        }
+    },
+    "Row_57": {
+        "prompt_1": {
+            "message_query": "The message doesn't provide specific details on which files were changed. However, typically changes could have been made to files related to network configuration, endpoint settings, or application settings, such as:\n\n- Config files (like `.conf` or `.cfg` files, `config.js`, `config.py`, etc.) which contain configuration settings for different environments.\n- Code files (like `.java`, `.js`, `.py`, etc.) where network communication, endpoint negotiation, or API calls are taking place.\n- Server files, if the application is being hosted on a local server, settings might be changed to add the new EU endpoint.\n- Files related to scope (which can exist within many different file types depending on the programming language and architecture of the project). \n\nIt would be best to refer to the commit changes or contact the person who made the changes for exact files names and paths."
+        },
+        "prompt_2": {
+            "message_change_query": "The types of changes that occurred are ADD and MODIFY."
+        }
+    },
+    "Row_58": {
+        "prompt_1": {
+            "message_query": "Without specific details, it's challenging to determine the precise files that were changed based on your message. In general, it could potentially be:\n\n1. Any file related to the 'getCredentialsJson' function/method. This could be in various programming languages, might be part of a library, module, class, or standalone function. \n   \n2. Any file related to the 'scope' which is generally used to determine the accessibility/visibility of variables, objects, functions in some particular part of the code during runtime.\n   \n3. Any configuration or environment files, if the error was due to incorrect credentials in an environment variable or configuration file.\n\nThe exact files would likely be noted in the commit message or changeset associated with the bug fix."
+        },
+        "prompt_2": {
+            "message_change_query": "MODIFY"
+        }
+    },
+    "Row_59": {
+        "prompt_1": {
+            "message_query": "The message doesn't specify which files were changed. However, it's likely that files relating to the import functionality and the design/display of the site's popups (most likely CSS files, JavaScript or frontend code files) were modified. The exact files would depend on how the project's codebase is structured."
+        },
+        "prompt_2": {
+            "message_change_query": "The changes that occurred are ADD and MODIFY."
+        }
+    },
+    "Row_60": {
+        "prompt_1": {
+            "message_query": "Without specific context, it's hard to pinpoint exactly what files would be changed based on the message \"fix default merchant location when null\". However, if we are talking about a typical web application, possible files that could be impacted may include:\n\n1. Any backend code files handling the merchant information such as \"MerchantController\" or \"MerchantService\", likely in the backend server code. \n\n2. The data model files or ORM schema definitions for merchants, such as \"Merchant.js\" or \"merchant.model.ts\".\n\n3. Frontend files that display or manage the merchant location. This could be a file like \"MerchantLocation.jsx\" or \"merchant_location.vue\".\n\n4. Database migration or seeder files if the change requires a modification to existing merchant data.\n\n5. Test files related to merchant location.\n\nRemember, these are only estimates and the actual file names or locations could be different based on how the application's codebase is structured."
+        },
+        "prompt_2": {
+            "message_change_query": "MODIFY"
+        }
+    },
+    "Row_61": {
+        "prompt_1": {
+            "message_query": "The message doesn't provide specific information about which files were changed. In the context of fixing multiple imports in textareas, the changed files might be any that contain code for importing text into textareas. It might be JavaScript (.js) or TypeScript (.ts) files in a front-end application, or it could be back-end files in languages such as PHP (.php), Python (.py), etc. Revisions could also have been made to HTML (.html) or CSS (.css) files, among others, depending on the nature of the import issue. Without context or a more specific message, it's impossible to say exactly which files were changed."
+        },
+        "prompt_2": {
+            "message_change_query": "MODIFY"
+        }
+    },
+    "Row_62": {
+        "prompt_1": {
+            "message_query": "The message does not provide information about specific files being changed. It just states that JSON placeholder text has been added, but does not indicate which file or files have this addition."
+        },
+        "prompt_2": {
+            "message_change_query": "ADD"
+        }
+    },
+    "Row_63": {
+        "prompt_1": {
+            "message_query": "Without further context, it's difficult to provide an exact answer. However, there are possible scenarios where this fix could be applied:\n\n1. Files related to configurations: Such as settings or parameters files where the variables `merchantLoginRedirectURLs` and `locale` are defined.\n\n2. Files related to forms: If there's a form that utilizes these parameters, related files (HTML, CSS, JS, or back-end files that handle form data) would be changed.\n\n3. Localization files: These handle language/locale settings and can be affected if `locale` is changed.\n\n4. Files handling URL routing or redirection logic: These could be altered when changing `merchantLoginRedirectURLs`.\n\n5. Server-side scripts: Such as PHP, Node.js, Python etc. that handle redirecting.\n\nPlease look into these areas based on your codebase or provide further context to get a more precise solution."
+        },
+        "prompt_2": {
+            "message_change_query": "MODIFY"
+        }
+    },
+    "Row_64": {
+        "prompt_1": {
+            "message_query": "The message doesn't provide specific details about what files are changed. It appears to be instructions for changes to be made within a system or application, such as renaming the parameter \"SP\" to \"post\" and updating the label \"EU\" to \"Euro Region\". The files or components that would be modified will be the ones where these parameters and labels exist or are relevant, which could encompass a wide range of potential file types and is dependent on your specific system or software."
+        },
+        "prompt_2": {
+            "message_change_query": "1. MODIFY: Change \"SP params\" to \"post\"\n2. MODIFY: Change \"EU label\" to \"Euro Region\""
+        }
+    },
+    "Row_65": {
+        "prompt_1": {
+            "message_query": "Without additional context about the project structure, system, and version control, it's impossible to predict which exact files were changed based on the message \"fix SP version params\". It sounds like the change was related to parameters for a version of a Service Pack (SP), but the specific files would depend entirely on the project. The change could be in configuration files, source code files, script files, etc. It's best to check the commit details or ask the author for more information."
+        },
+        "prompt_2": {
+            "message_change_query": "MODIFY"
+        }
+    },
+    "Row_66": {
+        "prompt_1": {
+            "message_query": "Without specific context of a coding project, it's impossible to determine exactly which files are changed based on the message \"rename SP save credentials button\". \n\nHowever, based on a general understanding, this change could potentially affect:\n\n1. User Interface (UI) files where the button is designed and labeled.\n2. The associated style files (like CSS/SCSS, if it's a web project) for styling the button.\n3. Relevant Javascript or typescript files handling the button's functionality.\n4. Files related to Localization or Internationalization if the application supports multiple languages.\n5. Unit tests or UI tests that involve this button.\n6. Any relevant documentation files that reference the old button name. \n\nThese are general assumptions made on common programming practices. The affected files would depend completely on the structure and organization of your specific project."
+        },
+        "prompt_2": {
+            "message_change_query": "MODIFY"
+        }
+    },
+    "Row_67": {
+        "prompt_1": {
+            "message_query": "The message does not provide specific details about which files were changed. However, changes might have been made to any files related to the user interface, event handling or the functionality of the 'skip' button, possibly including JavaScript, CSS, HTML, or other frontend code files. Perhaps files that handle popups functionality were also modified."
+        },
+        "prompt_2": {
+            "message_change_query": "MODIFY"
+        }
+    },
+    "Row_68": {
+        "prompt_1": {
+            "message_query": "Without more specific information or context, it's impossible to identify exactly which files would be changed based on the message \"Restructure admin options\". In general, this message could mean changes to admin-related files such as configuration files, user role definition files, user permissions files, etc. But it would vary greatly based on the specific system or application."
+        },
+        "prompt_2": {
+            "message_change_query": "MODIFY"
+        }
+    },
+    "Row_69": {
+        "prompt_1": {
+            "message_query": "The message doesn't clearly state which files are changed. However, it suggests modifications were made in both a template file put under a module version (possibly related to SimplePath instructions) and a configuration related file. To know exactly which files were changed, one would need more specific context or a file log."
+        },
+        "prompt_2": {
+            "message_change_query": "MODIFY"
+        }
+    },
+    "Row_70": {
+        "prompt_1": {
+            "message_query": "Based on the message, the file that was changed is configuration.rst."
+        },
+        "prompt_2": {
+            "message_change_query": "MODIFY"
+        }
+    },
+    "Row_71": {
+        "prompt_1": {
+            "message_query": "Without specific context or a project structure, it's difficult to provide an exact answer. However, based on general programming practices, the message suggests changes have been made to multiple files related with currency check, JSON validation, and translation wrappers. Likely altered files could be:\n\n1. A currency handling or checking file (ex: `currency.js`, `currencyCheck.py`)\n2. JSON validation file could be related to any data object structure validation. (ex: `jsonValidation.js`, `jsonValidator.py`)\n3. Translation wrappers might be code for handling multi-language support (ex: `translationWrapper.js`, `languageSupport.py`)\n\nAgain, it is hard to say the exact file names without knowing the project structure, but those descriptions might refer to where in the code the changes were made. Additionally, depending upon the project, these changes might also involve update in test files or configuration files."
+        },
+        "prompt_2": {
+            "message_change_query": "ADD"
+        }
+    },
+    "Row_72": {
+        "prompt_1": {
+            "message_query": "The message does not provide specific information about which files have been changed. However, considering it's mentioning a situation involving Magento (a popular e-commerce platform), the changes likely occurred either in Magento's core files or in a custom module developed for a specific Magento installation."
+        },
+        "prompt_2": {
+            "message_change_query": "MODIFY"
+        }
+    },
+    "Row_73": {
+        "prompt_1": {
+            "message_query": "Without additional context such as file directory, software, or system details, it's hard to determine the specific files changed. However, generally, this message likely applies to files related to Security Protocol (SP) configuration or documentation, and HTTP Secure (HTTPS) settings. Probably text files (.txt), markdown files (.md), or configuration files (.conf or .cfg) have been updated. Recheck the context or examine version control logs or commit history for more specific information."
+        },
+        "prompt_2": {
+            "message_change_query": "MODIFY"
+        }
+    },
+    "Row_74": {
+        "prompt_1": {
+            "message_query": "Without specific context (like programming language, project, specific technology, etc.) it's very difficult to guess exactly what files would be changed based on the message \"Update 'Options' to Store Scope\". These determinants could be files like configuration files, code files (which could be in any number of languages - JavaScript, Python, C#, etc.), and more. Possibly the files related to the user interface as well where 'Options' might need an update.\n\nHowever, in a general context related to web development, a change like this might be in:\n\n1. The database model, schema or related file that dictates the store scope.\n2. The backend code-file where the 'Options' is being defined or set.\n3. The file where the 'Options' change is getting implemented, typically some front-end component if it's a visual change.\n4. Test files linked with 'Options' if any.\n5. Documentation & read me files, if they contain manual about 'Options'.\n\nAgain, exact files would be hard to point out without knowing the specific context of the project or technology stack used."
+        },
+        "prompt_2": {
+            "message_change_query": "MODIFY"
+        }
+    },
+    "Row_75": {
+        "prompt_1": {
+            "message_query": "The message does not specify which files are changed. It just indicates that the name change to \"test\" has been reverted."
+        },
+        "prompt_2": {
+            "message_change_query": "MODIFY"
+        }
+    },
+    "Row_76": {
+        "prompt_1": {
+            "message_query": "Without specific context or system, it's hard to determine which files may be changed based on this message. In a general context, \"Update scope to store level\" might suggest that configuration files or application settings might be affected that control the level of access or detail in stored data. \n\nIn the context of Magento (which uses the phrases 'store level' and 'scope') it could be files like:\n- app/code/core/Mage/Core/Model/Store.php \n- app/code/core/Mage/Core/ etc./config.xml \n\nBut it totally depends on the project, system and language used."
+        },
+        "prompt_2": {
+            "message_change_query": "MODIFY"
+        }
+    },
+    "Row_77": {
+        "prompt_1": {
+            "message_query": "Without more specific information or context, it's impossible to accurately determine which specific files may have been changed based on this message. The message suggests that something related to \"version\" display was fixed temporarily, but it doesn't specify what files or parts of the system it refers to. It could potentially refer to any part of a system or application where version information is displayed.\n\nFor software or any programming project, the modified files could be amongst various parts of the codebase such as:\n\n1. Source code files where the version information is specified.\n2. Script files where the version display function lies.\n3. Configuration or settings files, that have some parameters related to version information.\n4. HTML views, JavaScript files, or CSS files in case of a web application.\n\nHowever, this would normally be recorded in a version control system (like git) log or a change tracking system."
+        },
+        "prompt_2": {
+            "message_change_query": "MODIFY"
+        }
+    },
+    "Row_78": {
+        "prompt_1": {
+            "message_query": "The message does not clearly state which specific files are changed. However, it's very likely that the changes are applied in files related to URL redirection, possibly in configuration files, script files or source code of a web application, depending on the technology stack in use. To understand which files have been changed exactly, more context or access to commit changes would be required."
+        },
+        "prompt_2": {
+            "message_change_query": "MODIFY"
+        }
+    },
+    "Row_79": {
+        "prompt_1": {
+            "message_query": "Without specific details, it's impossible to pinpoint the exact files. However, changes could potentially be found in one or more of the following types of files in a typical web development project:\n\n1. HTML file - The structure of the cart page could've changed to no longer obscure the button.\n2. CSS file - The styling could've been adjusted to make the button more visible.\n3. JavaScript file - Perhaps there was a script hiding the button which has now been fixed.\n4. Template file - In a content management system (CMS), the template file for the cart page could have been adjusted.\n5. PHP file - If the website is built using PHP, it could be one of PHP files. \n\nNote: The actual file extension (.html, .css, .js, .php, etc.) and the file name are specified when changes are made to specific files."
+        },
+        "prompt_2": {
+            "message_change_query": "MODIFY"
+        }
+    },
+    "Row_80": {
+        "prompt_1": {
+            "message_query": "Without specific knowledge of a codebase or platform, it's impossible to provide accurate file names. However, based on standardized web development structures, the likely affected files would be:\n\n1. Cart Component/Page (cart.component.js or cart.aspx, cart.php, CartActivity.java, etc.) - The UI component where the button is displayed needs to be updated to conditionally display the button.\n\n2. Cart CSS file (cart.css or cart.scss, cart.less, etc.) - If there are any style changes associated with hiding/showing the button.\n\n3. Quote Service or Model (quote.service.js, quote.php or quote.model.js etc.) - You may need to update the service or model that retrieves quote information to change how it calculates whether a quote is available.\n\n4. Cart Service or Model (cart.service.js, cart.php or cart.model.js, etc.) - This service or function handling the cart might need to be updated to use updated quote information.\n\n5. Test files for any updated components/services (like cart.test.js, quote.test.js) - If your code is thoroughly tested, any changes should also have corresponding test adjustments.\n\nRemember that these filenames are just examples, real file names will depend on the specific project, technology stack, and naming conventions."
+        },
+        "prompt_2": {
+            "message_change_query": "MODIFY"
+        }
+    },
+    "Row_81": {
+        "prompt_1": {
+            "message_query": "The message does not provide information about which specific files were changed."
+        },
+        "prompt_2": {
+            "message_change_query": "ADD"
+        }
+    },
+    "Row_82": {
+        "prompt_1": {
+            "message_query": "As an AI, I don't have the ability to view or examine specific file changes from a provided message. However, in the context of fixing compilation dependency injections in a software development project, this could potentially involve changes in several file types, such as:\n\n1. Source code files: These contain the actual logic of the application. Languages such as Java, C#, Python, JS and others could be used.\n\n2. Configuration files: This could be XML files or any other type which are used to configure dependency injection frameworks.\n\n3. Build files: Files like pom.xml for Maven or build.gradle for a Gradle project that contain information about project dependencies might need to be modified.\n\n4. Scripts: You might need to modify scripts that handle building and deploying the application.\n\n5. Project manifest or metadata files: These contain various settings and configurations for your IDE, build tools, or more.\n\nPlease examine your code base and follow the error messages and debugging info to find out exactly which files need to be changed or corrected."
+        },
+        "prompt_2": {
+            "message_change_query": "MODIFY"
+        }
+    },
+    "Row_83": {
+        "prompt_1": {
+            "message_query": "The message does not provide specific details about what files were changed. However, typically, updates to documentation could involve changes to README files, INSTALL files, or any .doc/.txt/.md files in a project's repository that contain installation or uninstallation instructions. These could be within the main project folder or a specific 'docs' folder. It could also involve changes to setup or uninstall scripts if they include documentation/comments. Sometimes changes can also include wiki pages or web-based instructions associated to the project."
+        },
+        "prompt_2": {
+            "message_change_query": "MODIFY"
+        }
+    },
+    "Row_84": {
+        "prompt_1": {
+            "message_query": "Based on the message, the file that would be changed is SimplePathAdmin.php."
+        },
+        "prompt_2": {
+            "message_change_query": "MODIFY"
+        }
+    },
+    "Row_85": {
+        "prompt_1": {
+            "message_query": "The message does not provide specific details about which files have been changed. However, in a typical e-commerce platform, changes might occur in files responsible for the shopping cart functionality, shortcut functionality or the user interface where these shortcuts are displayed. We would commonly look into JavaScript files, HTML files, CSS files or any relevant backend files depending on the programming language used. For exact details, we would need access to the version control system or some additional context."
+        },
+        "prompt_2": {
+            "message_change_query": "MODIFY"
+        }
+    },
+    "Row_86": {
+        "prompt_1": {
+            "message_query": "Without specific information about the website structure or content management system, it's impossible to define exactly which files were changed. However, possible files would likely include:\n\n1. HTML files of the landing pages where the Amazon Pay mark was located.\n2. Associated CSS files, if there were any styles directly related to the Amazon Pay mark.\n3. JS files, if there was any dynamic functionality like a payment process that started when you click the Amazon Pay mark.\n4. Any back-end files (like PHP, java, Python, etc.) that handle the logic for the payments or displaying the Amazon Pay mark.\n5. Image or asset files containing the Amazon Pay mark itself, which may have been deleted.\n\nNote: This is just a generic view, the specific files can differ based on how the website is constructed."
+        },
+        "prompt_2": {
+            "message_change_query": "DELETE"
+        }
+    },
+    "Row_87": {
+        "prompt_1": {
+            "message_query": "The message isn't specific about what exact files in your system were changed. However, generally, the files that might get altered when introducing a loading animation on redirect usually involve:\n\n1. HTML file \u2013 You might have to add a div that will hold the animation.\n2. CSS file \u2013 This would include styles for the loading animation.\n3. JavaScript file \u2013 This can be used to control when the loading animation should appear and disappear.\n4. If there are any particular animation files (such as .gif for GIF animations), these could potentially be added.\n5. In an MVC architecture, the view files could also be changed."
+        },
+        "prompt_2": {
+            "message_change_query": "ADD"
+        }
+    },
+    "Row_88": {
+        "prompt_1": {
+            "message_query": "The message does not provide specific names of the files that were changed. However, it involves payment setup scripts and it's likely related to cloud edition setup. Consider checking in repositories or folders related to payment implementations or cloud configuration to see the changes."
+        },
+        "prompt_2": {
+            "message_change_query": "MODIFY"
+        }
+    },
+    "Row_89": {
+        "prompt_1": {
+            "message_query": "The message does not provide specific details about which files were changed. However, it suggests that the file \"shipping.html\" or related files in which it was overridden may have been modified during the refactoring process."
+        },
+        "prompt_2": {
+            "message_change_query": "MODIFY"
+        }
+    },
+    "Row_90": {
+        "prompt_1": {
+            "message_query": "The message \"Override removal pass 2\" is generic and does not specify which files are being changed. It could refer to different types of files depending on the context and the program that's executing the command. Also, it might not necessarily mean that any files are being changed, but rather could be part of a process or algorithm within a computer program. Without additional information, it's impossible to determine the precise files being affected."
+        },
+        "prompt_2": {
+            "message_change_query": "DELETE"
+        }
+    },
+    "Row_91": {
+        "prompt_1": {
+            "message_query": "The message does not provide specific details about which files were changed. It mentions that a bug was fixed and some cleanup was done, but without further context or details, it's impossible to determine the particular files that were modified."
+        },
+        "prompt_2": {
+            "message_change_query": "MODIFY"
+        }
+    },
+    "Row_92": {
+        "prompt_1": {
+            "message_query": "The message doesn't provide specific information about which files are changed. However, typically, changes based on this message would likely involve files that directly interact with the database. These modifications could include ORM (Object-Relational Mapping) models, repository classes, DAO (Data Access Object), or service classes, among others. The exact files would depend on the project's structure and the utilized technologies.\n\nThe modification seems to be about prefixing the table name inside a getter method, thus the files that declare or use this method will be affected. Possible examples of such files (in a general web application scenario) could be:\n\n- User.java (or equivalent model class)\n- UserRepository.java (or equivalent repository/DAO class)\n- UserService.java (or equivalent service class)\n\nHowever, please check your particular project or consult the developer / team who sent that message for a precise context-specific answer."
+        },
+        "prompt_2": {
+            "message_change_query": "ADD"
+        }
+    },
+    "Row_93": {
+        "prompt_1": {
+            "message_query": "The file that is changed based on this message is oAuthRedirect.phtml."
+        },
+        "prompt_2": {
+            "message_change_query": "MODIFY"
+        }
+    },
+    "Row_94": {
+        "prompt_1": {
+            "message_query": "The message does not provide specific details about which files were changed. Typically, changes related to default configuration might be present in files like \"config.php\", \".env\", \"settings.py\", \"app.config\", \".yaml\" or \".json\" files, etc. depending on the programming language and framework used. Please provide more details."
+        },
+        "prompt_2": {
+            "message_change_query": "ADD"
+        }
+    },
+    "Row_95": {
+        "prompt_1": {
+            "message_query": "The message does not provide specific details on which files were changed to fix the mentioned bugs. However, they are likely related to PWA (Progressive Web Application), LWA (Login with Amazon), and customer address handling modules or components in Magento. Therefore, potentially updated files might be within these parts of the system. Typically, you'd look into JavaScript, PHP, HTML, or XML files related to these features, as Magento primarily uses these languages. \n\nFor a precise understanding though, you need access to the commit history or a direct report from the developer who made the changes."
+        },
+        "prompt_2": {
+            "message_change_query": "MODIFY"
+        }
+    },
+    "Row_96": {
+        "prompt_1": {
+            "message_query": "The message doesn't specify which files were changed. It only states that direct database queries were removed, which will be in files dealing with database operations - such as .sql files, ORM files, or others dependent on the technology stack used. This could involve application code in any programming language. To know exactly which files were changed, one would need more specific context or file change tracking."
+        },
+        "prompt_2": {
+            "message_change_query": "DELETE"
+        }
+    },
+    "Row_97": {
+        "prompt_1": {
+            "message_query": "The message does not provide specific information on which files were changed. It merely indicates that an exception was made in accordance with feedback from the Magento Marketplace Extension Quality Program (MEQP). More details or context would be needed to determine what files were affected."
+        },
+        "prompt_2": {
+            "message_change_query": "MODIFY"
+        }
+    },
+    "Row_98": {
+        "prompt_1": {
+            "message_query": "The message does not provide specific information about which files were changed. It only mentions that the change relates to setting the correct order status in CompleteOrderStatus."
+        },
+        "prompt_2": {
+            "message_change_query": "MODIFY"
+        }
+    },
+    "Row_99": {
+        "prompt_1": {
+            "message_query": "The message does not provide specific information about which files are changed. However, based on the context, it most likely involves files related to event handling, rendering, and perhaps the overall application structure in a web development environment. Potentially, this change could involve files like:\n\n1. Any JavaScript or TypeScript files (`.js` or `.ts`) dealing with event handling or lifecycle methods.\n2. React components (`.jsx` or `.tsx`, if using TypeScript).\n3. Angular components or services (`.ts` or `.service.ts`).\n4. Vue components (`.vue`).\n\nFiles like `app.js`, `main.js`, `index.js` or equivalent based on the naming convention of the project could also be involved, as these often control the overall application structure. \n\nRemember that this is a speculative answer given the general nature of the message. For a more accurate answer, you would need more specific details about the project setup, structure, languages, and frameworks used."
+        },
+        "prompt_2": {
+            "message_change_query": "MODIFY"
+        }
+    },
+    "Row_100": {
+        "prompt_1": {
+            "message_query": "The message does not specify which files were changed. However, given the context, it's likely that the changes were made to .phtml files associated with PwA/LwA button usage in the system. The actual files may vary based on the project structure, but typically these would be template files of a related module or theme."
+        },
+        "prompt_2": {
+            "message_change_query": "MODIFY"
+        }
+    }
+}
