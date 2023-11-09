@@ -2,6 +2,7 @@ import openai
 import json
 import time
 from requests.exceptions import ReadTimeout
+import argparse
 
 def make_request_with_retry(prompt, model="gpt-4", max_retries=5):
     backoff_factor = 1
@@ -28,8 +29,14 @@ def make_request_with_retry(prompt, model="gpt-4", max_retries=5):
     return None
 
 if __name__ == "__main__":
-    API_KEY = "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"
-    openai.api_key = API_KEY
+    parser = argparse.ArgumentParser(description='Run GPT model queries.')
+    parser.add_argument('--API', type=str, help='API Key for OpenAI')
+    parser.add_argument('--model', type=str, default='gpt-4', help='Model type (default: gpt-4)')
+    
+    # Parse arguments
+    args = parser.parse_args()
+
+    openai.api_key = args.API
     
     # Load prompts from your JSON file
     with open('prompts.json', 'r') as f:
@@ -54,7 +61,7 @@ if __name__ == "__main__":
                 print(prompt)
                 
                 # Call GPT API with retry logic
-                response = make_request_with_retry(prompt)
+                response = make_request_with_retry(prompt,args.model)
                 if response:
                     message_results[row_key][prompt_key] = {query_type: response['choices'][0]['message']['content']}
                     print(f"{query_type} Result:", message_results[row_key][prompt_key])
@@ -72,7 +79,7 @@ if __name__ == "__main__":
                     print(prompt)
                     
                     # Call GPT API with retry logic
-                    response = make_request_with_retry(prompt)
+                    response = make_request_with_retry(prompt, args.model)
                     if response:
                         mods_results[row_key].setdefault(prompt_key, []).append({f"{query_type}_{i+1}": response['choices'][0]['message']['content']})
                         print(f"{query_type} {i+1} Result:", mods_results[row_key][prompt_key][-1])

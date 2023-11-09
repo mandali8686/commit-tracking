@@ -2,6 +2,7 @@ import openai
 import json
 import time
 from requests.exceptions import ReadTimeout
+import argparse
 
 def make_request_with_retry(prompt, model="gpt-3.5-turbo", max_retries=5):
     backoff_factor = 1
@@ -28,8 +29,14 @@ def make_request_with_retry(prompt, model="gpt-3.5-turbo", max_retries=5):
     return None
 
 if __name__ == "__main__":
-    openai.api_key = "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"  # Replace with your actual API key
+    parser = argparse.ArgumentParser(description='Run GPT model queries.')
+    parser.add_argument('--API', type=str, help='API Key for OpenAI')
+    parser.add_argument('--model', type=str, default='gpt-3.5-turbo', help='Model type (default: gpt-3.5-turbo)')
     
+    # Parse arguments
+    args = parser.parse_args()
+
+    openai.api_key = args.API 
     # Load prompts from your JSON file
     with open('prompts.json', 'r') as f:
         prompts_dict = json.load(f)
@@ -42,7 +49,7 @@ if __name__ == "__main__":
             print(f"Processing {row_key} - prompt_5")
             print(prompt)
             
-            response = make_request_with_retry(prompt)
+            response = make_request_with_retry(prompt, model=args.model)
             if response:
                 prompt_5_results[row_key] = response['choices'][0]['message']['content']
                 print(f"Response for {row_key} - prompt_5:", prompt_5_results[row_key])
