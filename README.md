@@ -41,7 +41,7 @@ Before running the scripts, make sure to generate the prompts using `prompt.py`.
 2. Run the script with the following command:
 
    ```bash
-   python commit_analysis_driver.py --API <your_api_key> --model <model_name>
+   python driver.py --API <your_api_key> --model <model_name>
 
 Replace <your_api_key> with your actual API key and <model_name> with the desired model (e.g., 'gpt-3.5-turbo').
 
