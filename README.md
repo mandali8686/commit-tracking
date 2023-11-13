@@ -4,6 +4,18 @@
 
 This toolkit consists of two Python scripts (drivers) designed for analyzing software repositories using Large Language Models (LLMs). These drivers interact with the OpenAI API to process commit data from code repositories and evaluate the capabilities of LLMs in understanding code changes and dependencies.
 
+## Research Questions
+• RQ1: Assessing LLMs’ ability to identify changed files in a repository based on commit messages.
+
+• RQ2: Evaluating whether LLMs can accurately identify affected components in a repository from commit modifications.
+
+
+• RQ3: Comparing the effectiveness of LLMs in identifying files and components based on commit messages versus commit
+modifications.
+– RQ3.1: Examining potential discrepancies between these two methods and the scenarios where they occur.
+
+• RQ4: Probing LLMs’ ability to recognize file dependencies across different commit messages or modifications.
+
 ## Scripts Description
 
 1. **Driver for Commit Analysis (`commit_analysis_driver.py`):** This script processes commit messages and file modifications. It sends these data points to the OpenAI API and retrieves LLM's responses. The results are categorized into two types: message results and mods results.
