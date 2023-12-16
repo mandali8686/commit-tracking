@@ -36,7 +36,7 @@ if __name__ == "__main__":
     # Parse arguments
     args = parser.parse_args()
 
-    openai.api_key = args.API
+    openai.api_key = "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"
     
     # Load prompts from your JSON file
     with open('prompts.json', 'r') as f:
