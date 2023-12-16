@@ -54,7 +54,7 @@ def query_gpt_with_new_prompts(prompts):
     return file_selection_results, diff_prediction_results
 
 if __name__ == "__main__":
-    API_KEY = "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"
+    API_KEY = "your-api-key"
     openai.api_key = API_KEY
 
     # Load new prompts from JSON
